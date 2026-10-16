@@ -1,0 +1,15 @@
+# build output
+*.exe
+*.out
+*.o
+build/
+__pycache__/
+
+# editor
+.vscode/
+
+# raw LeetCode API cache
+.cache/
+
+# problem statements are LeetCode's content: keep them local only
+top150/**/problem.md

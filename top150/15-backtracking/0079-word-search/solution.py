@@ -1,0 +1,14 @@
+# 79. Word Search
+# https://leetcode.com/problems/word-search/
+from typing import *
+from collections import *
+from heapq import *
+from bisect import *
+from functools import *
+from itertools import *
+import math
+
+# ---- submit below this line ----
+class Solution:
+    def exist(self, board: list[list[str]], word: str) -> bool:
+        pass

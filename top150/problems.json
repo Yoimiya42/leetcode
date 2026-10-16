@@ -1,0 +1,5252 @@
+{
+ "plan": "Top Interview 150",
+ "problems": [
+  {
+   "order": 1,
+   "id": "88",
+   "title": "Merge Sorted Array",
+   "slug": "merge-sorted-array",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0088-merge-sorted-array",
+   "metaData": {
+    "name": "merge",
+    "params": [
+     {
+      "name": "nums1",
+      "type": "integer[]",
+      "implicitsizeparam": false
+     },
+     {
+      "name": "m",
+      "type": "integer"
+     },
+     {
+      "name": "nums2",
+      "type": "integer[]",
+      "implicitsizeparam": false
+     },
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "void"
+    },
+    "output": {
+     "paramindex": 0
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,0,0,0]\n3\n[2,5,6]\n3",
+    "[1]\n1\n[]\n0",
+    "[0]\n0\n[1]\n1"
+   ],
+   "templateSha1": {
+    "py": "d0d4a8fb398cab7da33c0a4244f061ca5564727e",
+    "cpp": "e2fc9b991d6e3ffae417f1eab49f6477cebd2c40",
+    "ts": "a068f359a3781555297e8a4062090eff9cd3e720"
+   }
+  },
+  {
+   "order": 2,
+   "id": "27",
+   "title": "Remove Element",
+   "slug": "remove-element",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0027-remove-element",
+   "metaData": {
+    "name": "removeElement",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "val",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    },
+    "output": {
+     "paramindex": 0,
+     "size": "ret"
+    }
+   },
+   "exampleTestcases": [
+    "[3,2,2,3]\n3",
+    "[0,1,2,2,3,0,4,2]\n2"
+   ],
+   "templateSha1": {
+    "py": "b017308cd81fb27bdbada0f173b86b02808b667d",
+    "cpp": "9d99d33207e82bf537afef1dcd042f60be825734",
+    "ts": "8c7e3d6f15e434b23a996d2054e907b4c8ca7a6b"
+   }
+  },
+  {
+   "order": 3,
+   "id": "26",
+   "title": "Remove Duplicates from Sorted Array",
+   "slug": "remove-duplicates-from-sorted-array",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0026-remove-duplicates-from-sorted-array",
+   "metaData": {
+    "name": "removeDuplicates",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    },
+    "output": {
+     "paramindex": 0,
+     "size": "ret"
+    },
+    "languages": [
+     "cpp",
+     "java",
+     "python",
+     "c",
+     "csharp",
+     "javascript",
+     "ruby",
+     "swift",
+     "golang",
+     "python3",
+     "scala",
+     "kotlin",
+     "rust",
+     "php",
+     "typescript",
+     "dart"
+    ]
+   },
+   "exampleTestcases": [
+    "[1,1,2]",
+    "[0,0,1,1,1,2,2,3,3,4]"
+   ],
+   "templateSha1": {
+    "py": "2a130151a07f4dddd44e117247462dbd1ee23873",
+    "cpp": "a557ad675efef6a6a5e0a8f2e733222a5e0f8f47",
+    "ts": "da0b98430a2e34f3fddc4cd107969ceb832e66e7"
+   }
+  },
+  {
+   "order": 4,
+   "id": "80",
+   "title": "Remove Duplicates from Sorted Array II",
+   "slug": "remove-duplicates-from-sorted-array-ii",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0080-remove-duplicates-from-sorted-array-ii",
+   "metaData": {
+    "name": "removeDuplicates",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    },
+    "output": {
+     "paramindex": 0,
+     "size": "ret"
+    }
+   },
+   "exampleTestcases": [
+    "[1,1,1,2,2,3]",
+    "[0,0,1,1,1,1,2,3,3]"
+   ],
+   "templateSha1": {
+    "py": "e8f374e54bd10b6c103d9c2f914cc36955ab4ce5",
+    "cpp": "5e4fba61806c2e29a84bd789051b56da94462d48",
+    "ts": "8df9c58fed607296398e1876ef8fee22d2188bfc"
+   }
+  },
+  {
+   "order": 5,
+   "id": "169",
+   "title": "Majority Element",
+   "slug": "majority-element",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0169-majority-element",
+   "metaData": {
+    "name": "majorityElement",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[3,2,3]",
+    "[2,2,1,1,1,2,2]"
+   ],
+   "templateSha1": {
+    "py": "ba49bd362ed5ccb8d3428b495f780c64ba6e2c91",
+    "cpp": "cfc777e8fe8a221184633decc68aff0a1e98178a",
+    "ts": "9b4964d44a8592585e07f809794c7aa6e535dccc"
+   }
+  },
+  {
+   "order": 6,
+   "id": "189",
+   "title": "Rotate Array",
+   "slug": "rotate-array",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0189-rotate-array",
+   "metaData": {
+    "name": "rotate",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "void"
+    },
+    "output": {
+     "paramindex": 0
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5,6,7]\n3",
+    "[-1,-100,3,99]\n2"
+   ],
+   "templateSha1": {
+    "py": "e43e62baa869deb866e7a3a667c126ade8d8290b",
+    "cpp": "1bb9e5b1238832529a59058ea555f69c33f3c860",
+    "ts": "094c3f13f949c8dbb3b73dc784f34e30e6332d56"
+   }
+  },
+  {
+   "order": 7,
+   "id": "121",
+   "title": "Best Time to Buy and Sell Stock",
+   "slug": "best-time-to-buy-and-sell-stock",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0121-best-time-to-buy-and-sell-stock",
+   "metaData": {
+    "name": "maxProfit",
+    "params": [
+     {
+      "name": "prices",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[7,1,5,3,6,4]",
+    "[7,6,4,3,1]"
+   ],
+   "templateSha1": {
+    "py": "cee1e5f0ea00fac65fa13c7b38114fa4dc7a865f",
+    "cpp": "16bb22125578a0f4a50e929ec4dda6aefd670491",
+    "ts": "3139626ccd65f0bdbec8d840e90d9ffc5f9c08a0"
+   }
+  },
+  {
+   "order": 8,
+   "id": "122",
+   "title": "Best Time to Buy and Sell Stock II",
+   "slug": "best-time-to-buy-and-sell-stock-ii",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0122-best-time-to-buy-and-sell-stock-ii",
+   "metaData": {
+    "name": "maxProfit",
+    "params": [
+     {
+      "name": "prices",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[7,1,5,3,6,4]",
+    "[1,2,3,4,5]",
+    "[7,6,4,3,1]"
+   ],
+   "templateSha1": {
+    "py": "75c36289ece7105ac1708ff119cf89385ee6606c",
+    "cpp": "72ab56a24d6ba40bd4a5dedc349499f15b0fcad1",
+    "ts": "dbcee621290f7f2f58dba6ad24e88b4b6730159a"
+   }
+  },
+  {
+   "order": 9,
+   "id": "55",
+   "title": "Jump Game",
+   "slug": "jump-game",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0055-jump-game",
+   "metaData": {
+    "name": "canJump",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[2,3,1,1,4]",
+    "[3,2,1,0,4]"
+   ],
+   "templateSha1": {
+    "py": "2fd49e94777d67e235478b8d118ad236c8a64403",
+    "cpp": "e15473bb28e2129b03e159dc81bd4b9184503d45",
+    "ts": "9748fc93bf0c88c60313fa22f24e821b54b6d127"
+   }
+  },
+  {
+   "order": 10,
+   "id": "45",
+   "title": "Jump Game II",
+   "slug": "jump-game-ii",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0045-jump-game-ii",
+   "metaData": {
+    "name": "jump",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[2,3,1,1,4]",
+    "[2,3,0,1,4]"
+   ],
+   "templateSha1": {
+    "py": "bbcaed06795c97478c7e808b9e7520fe074e5fe0",
+    "cpp": "4578b01d24939fcfc9d462790ad2f4147309e578",
+    "ts": "209b799dedd88c62b8e0a441c7d48a814e9105df"
+   }
+  },
+  {
+   "order": 11,
+   "id": "274",
+   "title": "H-Index",
+   "slug": "h-index",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0274-h-index",
+   "metaData": {
+    "name": "hIndex",
+    "params": [
+     {
+      "name": "citations",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[3,0,6,1,5]",
+    "[1,3,1]"
+   ],
+   "templateSha1": {
+    "py": "4b3a49a85622093bf4d9bc2412ccfdc79ba1e18a",
+    "cpp": "57de42b5b732fa79788b82f0bc3b4e49717a4c0a",
+    "ts": "02a3ce955a71193db1f5b1f4936f8cfb2dfee976"
+   }
+  },
+  {
+   "order": 12,
+   "id": "380",
+   "title": "Insert Delete GetRandom O(1)",
+   "slug": "insert-delete-getrandom-o1",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0380-insert-delete-getrandom-o1",
+   "metaData": {
+    "classname": "RandomizedSet",
+    "constructor": {
+     "params": []
+    },
+    "methods": [
+     {
+      "params": [
+       {
+        "type": "integer",
+        "name": "val"
+       }
+      ],
+      "name": "insert",
+      "return": {
+       "type": "boolean"
+      }
+     },
+     {
+      "params": [
+       {
+        "type": "integer",
+        "name": "val"
+       }
+      ],
+      "return": {
+       "type": "boolean"
+      },
+      "name": "remove"
+     },
+     {
+      "params": [],
+      "name": "getRandom",
+      "return": {
+       "type": "integer"
+      }
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    },
+    "systemdesign": true
+   },
+   "exampleTestcases": [
+    "[\"RandomizedSet\",\"insert\",\"remove\",\"insert\",\"getRandom\",\"remove\",\"insert\",\"getRandom\"]\n[[],[1],[2],[2],[],[1],[2],[]]"
+   ],
+   "templateSha1": {
+    "py": "1b90a9f84c3c4c770e055b6eb433aa96f8d56365",
+    "cpp": "183402ba4bd23b0955506f5c105a2bb52316bf8c",
+    "ts": "b1ec9977653b551c4ce41f3f91e5ac8f95139394"
+   }
+  },
+  {
+   "order": 13,
+   "id": "238",
+   "title": "Product of Array Except Self",
+   "slug": "product-of-array-except-self",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0238-product-of-array-except-self",
+   "metaData": {
+    "name": "productExceptSelf",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer[]"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4]",
+    "[-1,1,0,-3,3]"
+   ],
+   "templateSha1": {
+    "py": "d0769b73a09c71ed8088615921bd90e571fd29c2",
+    "cpp": "8a3eac706175fcc9e2896df0ef745ca01f0a11b7",
+    "ts": "894fb4d10d841d5c1af3902519e6957ec8fd87eb"
+   }
+  },
+  {
+   "order": 14,
+   "id": "134",
+   "title": "Gas Station",
+   "slug": "gas-station",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0134-gas-station",
+   "metaData": {
+    "name": "canCompleteCircuit",
+    "params": [
+     {
+      "name": "gas",
+      "type": "integer[]"
+     },
+     {
+      "name": "cost",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5]\n[3,4,5,1,2]",
+    "[2,3,4]\n[3,4,3]"
+   ],
+   "templateSha1": {
+    "py": "5ec3e15356816b67fa90f6c4ce5e29e250e5e781",
+    "cpp": "790915c166bba5e2ad2d4296a8af65c629d6a762",
+    "ts": "151d2c3e26225a6474b759e2efde5596455535b1"
+   }
+  },
+  {
+   "order": 15,
+   "id": "135",
+   "title": "Candy",
+   "slug": "candy",
+   "difficulty": "Hard",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0135-candy",
+   "metaData": {
+    "name": "candy",
+    "params": [
+     {
+      "name": "ratings",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,0,2]",
+    "[1,2,2]"
+   ],
+   "templateSha1": {
+    "py": "0212b7385828c17990aed60437b2741861440f01",
+    "cpp": "a167bd1410da360ba372f19849d5f8792188e3ab",
+    "ts": "06c43e9f8d8c7585df988240c7c42228036f1eb8"
+   }
+  },
+  {
+   "order": 16,
+   "id": "42",
+   "title": "Trapping Rain Water",
+   "slug": "trapping-rain-water",
+   "difficulty": "Hard",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0042-trapping-rain-water",
+   "metaData": {
+    "name": "trap",
+    "params": [
+     {
+      "name": "height",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[0,1,0,2,1,0,1,3,2,1,2,1]",
+    "[4,2,0,3,2,5]"
+   ],
+   "templateSha1": {
+    "py": "4f6f704edcfc86b58e56040135e2b016fc83566c",
+    "cpp": "0dbecaea9b4d11190e5b27bf8e76d2d89d01e9b1",
+    "ts": "f47b64519c5fa38cb35ca8dc44747b2e3c33ce07"
+   }
+  },
+  {
+   "order": 17,
+   "id": "13",
+   "title": "Roman to Integer",
+   "slug": "roman-to-integer",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0013-roman-to-integer",
+   "metaData": {
+    "name": "romanToInt",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"III\"",
+    "\"LVIII\"",
+    "\"MCMXCIV\""
+   ],
+   "templateSha1": {
+    "py": "af6475edc8df90d2911b90293a345d76ad268cc8",
+    "cpp": "4a43a59dbf0633fa5d26f9b3f06ef855d20aff43",
+    "ts": "254ed4b079440ff471b0fcde31b6dcef16e62923"
+   }
+  },
+  {
+   "order": 18,
+   "id": "12",
+   "title": "Integer to Roman",
+   "slug": "integer-to-roman",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0012-integer-to-roman",
+   "metaData": {
+    "name": "intToRoman",
+    "params": [
+     {
+      "name": "num",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "3749",
+    "58",
+    "1994"
+   ],
+   "templateSha1": {
+    "py": "c5be605c814059e399b5be97d9e05e69692b507c",
+    "cpp": "f93ccc794f28b6e7559ba94fba95de4b1c9d55fb",
+    "ts": "2857ff183417baf022acb617c3b10793ab605e8b"
+   }
+  },
+  {
+   "order": 19,
+   "id": "58",
+   "title": "Length of Last Word",
+   "slug": "length-of-last-word",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0058-length-of-last-word",
+   "metaData": {
+    "name": "lengthOfLastWord",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"Hello World\"",
+    "\"   fly me   to   the moon  \"",
+    "\"luffy is still joyboy\""
+   ],
+   "templateSha1": {
+    "py": "3254331a163d2aad3880b78266a66a0d4b8a4b9b",
+    "cpp": "b97ac93a757bd2dad805fe7a91c23d36fd648394",
+    "ts": "95bb7ca47618299326a5cead529150c1e480a01f"
+   }
+  },
+  {
+   "order": 20,
+   "id": "14",
+   "title": "Longest Common Prefix",
+   "slug": "longest-common-prefix",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0014-longest-common-prefix",
+   "metaData": {
+    "name": "longestCommonPrefix",
+    "params": [
+     {
+      "name": "strs",
+      "type": "string[]"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "[\"flower\",\"flow\",\"flight\"]",
+    "[\"dog\",\"racecar\",\"car\"]"
+   ],
+   "templateSha1": {
+    "py": "00826dc1e541f2f52107ca5d0b4eb6f59cfd6a01",
+    "cpp": "0df83adfde9e231767c25e7dbe508df3848d6c22",
+    "ts": "5a39f6ff635a05cce20de01062556ea14efdf9fe"
+   }
+  },
+  {
+   "order": 21,
+   "id": "151",
+   "title": "Reverse Words in a String",
+   "slug": "reverse-words-in-a-string",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0151-reverse-words-in-a-string",
+   "metaData": {
+    "name": "reverseWords",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "\"the sky is blue\"",
+    "\"  hello world  \"",
+    "\"a good   example\""
+   ],
+   "templateSha1": {
+    "py": "77e81393b06669d6a9cf57612a2e368f97de4cfd",
+    "cpp": "8cbc9876691d665e0265d5a60bc884b2fc5d4c59",
+    "ts": "dcdf69fd2ddbfaea3777337e0e3da2a8b93be670"
+   }
+  },
+  {
+   "order": 22,
+   "id": "6",
+   "title": "Zigzag Conversion",
+   "slug": "zigzag-conversion",
+   "difficulty": "Medium",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0006-zigzag-conversion",
+   "metaData": {
+    "name": "convert",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "numRows",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "\"PAYPALISHIRING\"\n3",
+    "\"PAYPALISHIRING\"\n4",
+    "\"A\"\n1"
+   ],
+   "templateSha1": {
+    "py": "d22aa86b8c50f809745a5120606027b903200d67",
+    "cpp": "77ff28c728b9ca9bd5cc4847f2637a80953bb7c5",
+    "ts": "672a8204dce5c8d98a1a152f66528faea1d7dd41"
+   }
+  },
+  {
+   "order": 23,
+   "id": "28",
+   "title": "Find the Index of the First Occurrence in a String",
+   "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+   "difficulty": "Easy",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0028-find-the-index-of-the-first-occurrence-in-a-string",
+   "metaData": {
+    "name": "strStr",
+    "params": [
+     {
+      "name": "haystack",
+      "type": "string"
+     },
+     {
+      "name": "needle",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"sadbutsad\"\n\"sad\"",
+    "\"leetcode\"\n\"leeto\""
+   ],
+   "templateSha1": {
+    "py": "4300799e62a9064c8164b63beea15b14b7e338c2",
+    "cpp": "5d9b6311417bba1400efe6f24b5f66e1f13afac0",
+    "ts": "a960cd5e361c2f0b82be44b26363cbe048b51e47"
+   }
+  },
+  {
+   "order": 24,
+   "id": "68",
+   "title": "Text Justification",
+   "slug": "text-justification",
+   "difficulty": "Hard",
+   "group": "Array / String",
+   "dir": "top150/01-array-string/0068-text-justification",
+   "metaData": {
+    "name": "fullJustify",
+    "params": [
+     {
+      "name": "words",
+      "type": "string[]"
+     },
+     {
+      "name": "maxWidth",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "list<string>"
+    }
+   },
+   "exampleTestcases": [
+    "[\"This\", \"is\", \"an\", \"example\", \"of\", \"text\", \"justification.\"]\n16",
+    "[\"What\",\"must\",\"be\",\"acknowledgment\",\"shall\",\"be\"]\n16",
+    "[\"Science\",\"is\",\"what\",\"we\",\"understand\",\"well\",\"enough\",\"to\",\"explain\",\"to\",\"a\",\"computer.\",\"Art\",\"is\",\"everything\",\"else\",\"we\",\"do\"]\n20"
+   ],
+   "templateSha1": {
+    "py": "16528737be692f4d604e5709167bcf86f41d6395",
+    "cpp": "919c41ee042e7f0defc2f5f2cc618118d6da5696",
+    "ts": "826135640ca8a44eb2d029ea6d1fd35046d9d6db"
+   }
+  },
+  {
+   "order": 25,
+   "id": "125",
+   "title": "Valid Palindrome",
+   "slug": "valid-palindrome",
+   "difficulty": "Easy",
+   "group": "Two Pointers",
+   "dir": "top150/02-two-pointers/0125-valid-palindrome",
+   "metaData": {
+    "name": "isPalindrome",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"A man, a plan, a canal: Panama\"",
+    "\"race a car\"",
+    "\" \""
+   ],
+   "templateSha1": {
+    "py": "e87b60d3dac579c0f7efd0b518a6ed57964e4af1",
+    "cpp": "9a1716fde22d38175ff3b4445f2e03e7f9b0ddae",
+    "ts": "39bbca9557ca8e18f625c792b4924564861fe52e"
+   }
+  },
+  {
+   "order": 26,
+   "id": "392",
+   "title": "Is Subsequence",
+   "slug": "is-subsequence",
+   "difficulty": "Easy",
+   "group": "Two Pointers",
+   "dir": "top150/02-two-pointers/0392-is-subsequence",
+   "metaData": {
+    "name": "isSubsequence",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "t",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"abc\"\n\"ahbgdc\"",
+    "\"axc\"\n\"ahbgdc\""
+   ],
+   "templateSha1": {
+    "py": "d08cb140b2d1b87769aa0dcf083565e92a39af4b",
+    "cpp": "c355da7b27d69fed026811afaa3979de2966e03e",
+    "ts": "ed273fdad50a8ff42208830223649aaf509df74f"
+   }
+  },
+  {
+   "order": 27,
+   "id": "167",
+   "title": "Two Sum II - Input Array Is Sorted",
+   "slug": "two-sum-ii-input-array-is-sorted",
+   "difficulty": "Medium",
+   "group": "Two Pointers",
+   "dir": "top150/02-two-pointers/0167-two-sum-ii-input-array-is-sorted",
+   "metaData": {
+    "name": "twoSum",
+    "params": [
+     {
+      "name": "numbers",
+      "type": "integer[]"
+     },
+     {
+      "name": "target",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer[]"
+    }
+   },
+   "exampleTestcases": [
+    "[2,7,11,15]\n9",
+    "[2,3,4]\n6",
+    "[-1,0]\n-1"
+   ],
+   "templateSha1": {
+    "py": "da281947eda4a602b889b6ad5e842ec156abdf00",
+    "cpp": "5e1ea736b39e93268bb99c5f82f40779cefb91a9",
+    "ts": "3f407b840328c07f8f782f6ba58ad553d1af3808"
+   }
+  },
+  {
+   "order": 28,
+   "id": "11",
+   "title": "Container With Most Water",
+   "slug": "container-with-most-water",
+   "difficulty": "Medium",
+   "group": "Two Pointers",
+   "dir": "top150/02-two-pointers/0011-container-with-most-water",
+   "metaData": {
+    "name": "maxArea",
+    "params": [
+     {
+      "name": "height",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,8,6,2,5,4,8,3,7]",
+    "[1,1]"
+   ],
+   "templateSha1": {
+    "py": "73145f2c8e7a36aabb31d198cabaede90ead0961",
+    "cpp": "7857cea96e58df5ac58f6035a280a158c392aabb",
+    "ts": "de01c66960c2e750d1c6e8e3ab8a1837937adf82"
+   }
+  },
+  {
+   "order": 29,
+   "id": "15",
+   "title": "3Sum",
+   "slug": "3sum",
+   "difficulty": "Medium",
+   "group": "Two Pointers",
+   "dir": "top150/02-two-pointers/0015-3sum",
+   "metaData": {
+    "name": "threeSum",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>",
+     "colsize": 3,
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[-1,0,1,2,-1,-4]",
+    "[0,1,1]",
+    "[0,0,0]"
+   ],
+   "templateSha1": {
+    "py": "cc26ecb739914453eaad4a81cd90a33ebe14a843",
+    "cpp": "be69ddeef4adb2dc062c44f1efaaca922ada59ca",
+    "ts": "092d60d4daac5d0c02110af70bfd92f623851024"
+   }
+  },
+  {
+   "order": 30,
+   "id": "209",
+   "title": "Minimum Size Subarray Sum",
+   "slug": "minimum-size-subarray-sum",
+   "difficulty": "Medium",
+   "group": "Sliding Window",
+   "dir": "top150/03-sliding-window/0209-minimum-size-subarray-sum",
+   "metaData": {
+    "name": "minSubArrayLen",
+    "params": [
+     {
+      "name": "target",
+      "type": "integer"
+     },
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "7\n[2,3,1,2,4,3]",
+    "4\n[1,4,4]",
+    "11\n[1,1,1,1,1,1,1,1]"
+   ],
+   "templateSha1": {
+    "py": "4d727fb379eec06d33529b54d2feffb6be7cb6b1",
+    "cpp": "4cc051b382165116f17516a27e2bfea132f8ea17",
+    "ts": "993b5e26915408c0d51f02d3267fd1528baf218d"
+   }
+  },
+  {
+   "order": 31,
+   "id": "3",
+   "title": "Longest Substring Without Repeating Characters",
+   "slug": "longest-substring-without-repeating-characters",
+   "difficulty": "Medium",
+   "group": "Sliding Window",
+   "dir": "top150/03-sliding-window/0003-longest-substring-without-repeating-characters",
+   "metaData": {
+    "name": "lengthOfLongestSubstring",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"abcabcbb\"",
+    "\"bbbbb\"",
+    "\"pwwkew\""
+   ],
+   "templateSha1": {
+    "py": "3e7e0aec9bac5b386c0837c3f31ca0039735a032",
+    "cpp": "4717a323635a422d909f9a6c1e21731178fa9679",
+    "ts": "990ab4809346716b8dab90476a5dfc95130ff589"
+   }
+  },
+  {
+   "order": 32,
+   "id": "30",
+   "title": "Substring with Concatenation of All Words",
+   "slug": "substring-with-concatenation-of-all-words",
+   "difficulty": "Hard",
+   "group": "Sliding Window",
+   "dir": "top150/03-sliding-window/0030-substring-with-concatenation-of-all-words",
+   "metaData": {
+    "name": "findSubstring",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "words",
+      "type": "string[]"
+     }
+    ],
+    "return": {
+     "type": "list<integer>"
+    }
+   },
+   "exampleTestcases": [
+    "\"barfoothefoobarman\"\n[\"foo\",\"bar\"]",
+    "\"wordgoodgoodgoodbestword\"\n[\"word\",\"good\",\"best\",\"word\"]",
+    "\"barfoofoobarthefoobarman\"\n[\"bar\",\"foo\",\"the\"]"
+   ],
+   "templateSha1": {
+    "py": "439749bbfc37cf3839c8d7a4917e4eb9abd9218e",
+    "cpp": "a066b9acc49eb221a0f4ee26cdd461b54f0be78b",
+    "ts": "2b31898942c5361a77a8caf7e7261ab738ef255a"
+   }
+  },
+  {
+   "order": 33,
+   "id": "76",
+   "title": "Minimum Window Substring",
+   "slug": "minimum-window-substring",
+   "difficulty": "Hard",
+   "group": "Sliding Window",
+   "dir": "top150/03-sliding-window/0076-minimum-window-substring",
+   "metaData": {
+    "name": "minWindow",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "t",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "\"ADOBECODEBANC\"\n\"ABC\"",
+    "\"a\"\n\"a\"",
+    "\"a\"\n\"aa\""
+   ],
+   "templateSha1": {
+    "py": "bad373f9741f745f400a2b77e9d755fb75810e38",
+    "cpp": "389c65af04aaddee9a4db1187bdf38f61c66bcef",
+    "ts": "230c8f3605f2387d0f4f6cf3049bfa28fbd64dd4"
+   }
+  },
+  {
+   "order": 34,
+   "id": "36",
+   "title": "Valid Sudoku",
+   "slug": "valid-sudoku",
+   "difficulty": "Medium",
+   "group": "Matrix",
+   "dir": "top150/04-matrix/0036-valid-sudoku",
+   "metaData": {
+    "name": "isValidSudoku",
+    "params": [
+     {
+      "name": "board",
+      "type": "character[][]"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[[\"5\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"],[\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"],[\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"],[\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"],[\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"],[\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"],[\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"],[\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"],[\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"]]",
+    "[[\"8\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"],[\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"],[\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"],[\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"],[\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"],[\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"],[\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"],[\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"],[\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"]]"
+   ],
+   "templateSha1": {
+    "py": "cd9915179d5d2097269d59a51071e6d804144962",
+    "cpp": "44eb151f93e729ec92276d56c903107443a45bde",
+    "ts": "d031f697dfdfd3b2742e6cd5b601a656cf8f63e9"
+   }
+  },
+  {
+   "order": 35,
+   "id": "54",
+   "title": "Spiral Matrix",
+   "slug": "spiral-matrix",
+   "difficulty": "Medium",
+   "group": "Matrix",
+   "dir": "top150/04-matrix/0054-spiral-matrix",
+   "metaData": {
+    "name": "spiralOrder",
+    "params": [
+     {
+      "name": "matrix",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "list<integer>",
+     "size": "size_1 * col_size_1",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[[1,2,3],[4,5,6],[7,8,9]]",
+    "[[1,2,3,4],[5,6,7,8],[9,10,11,12]]"
+   ],
+   "templateSha1": {
+    "py": "998d177305b6eb8f20a2935a05f6046fee982698",
+    "cpp": "aadb67a5d8e9581b320631c3b3b53cd1ed5c6aed",
+    "ts": "64c7f9b6db30eef53358c372a1ef10556e9f9c8e"
+   }
+  },
+  {
+   "order": 36,
+   "id": "48",
+   "title": "Rotate Image",
+   "slug": "rotate-image",
+   "difficulty": "Medium",
+   "group": "Matrix",
+   "dir": "top150/04-matrix/0048-rotate-image",
+   "metaData": {
+    "name": "rotate",
+    "params": [
+     {
+      "name": "matrix",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "void"
+    },
+    "output": {
+     "paramindex": 0
+    }
+   },
+   "exampleTestcases": [
+    "[[1,2,3],[4,5,6],[7,8,9]]",
+    "[[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]"
+   ],
+   "templateSha1": {
+    "py": "f97dd8f696bed8e86975f972957f7797a263fed4",
+    "cpp": "24d11058d649f860f39954ff6c2cb25e044c850e",
+    "ts": "fb201ac5accaf1e09c5b8cc74768d3d23c70d475"
+   }
+  },
+  {
+   "order": 37,
+   "id": "73",
+   "title": "Set Matrix Zeroes",
+   "slug": "set-matrix-zeroes",
+   "difficulty": "Medium",
+   "group": "Matrix",
+   "dir": "top150/04-matrix/0073-set-matrix-zeroes",
+   "metaData": {
+    "name": "setZeroes",
+    "params": [
+     {
+      "name": "matrix",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "void"
+    },
+    "output": {
+     "paramindex": 0
+    },
+    "manual": false
+   },
+   "exampleTestcases": [
+    "[[1,1,1],[1,0,1],[1,1,1]]",
+    "[[0,1,2,0],[3,4,5,2],[1,3,1,5]]"
+   ],
+   "templateSha1": {
+    "py": "83ec1f6984b2cdff7a7f6b23618210bc58ba73b1",
+    "cpp": "ad573312b9c2d8baabd90b7bcdd63636fae0ab56",
+    "ts": "043d6c1fd0173296d5c70fb68629ca0d8502dfe9"
+   }
+  },
+  {
+   "order": 38,
+   "id": "289",
+   "title": "Game of Life",
+   "slug": "game-of-life",
+   "difficulty": "Medium",
+   "group": "Matrix",
+   "dir": "top150/04-matrix/0289-game-of-life",
+   "metaData": {
+    "name": "gameOfLife",
+    "params": [
+     {
+      "name": "board",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "void"
+    },
+    "output": {
+     "paramindex": 0
+    }
+   },
+   "exampleTestcases": [
+    "[[0,1,0],[0,0,1],[1,1,1],[0,0,0]]",
+    "[[1,1],[1,0]]"
+   ],
+   "templateSha1": {
+    "py": "b672eaeff449d1c0e06ad47f30e28689edb347a3",
+    "cpp": "8f8c01cfe269c419428ee74fb01394bb3310dcfb",
+    "ts": "3adb2c46d96f987ffa092d43e2bdca97c2102988"
+   }
+  },
+  {
+   "order": 39,
+   "id": "383",
+   "title": "Ransom Note",
+   "slug": "ransom-note",
+   "difficulty": "Easy",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0383-ransom-note",
+   "metaData": {
+    "name": "canConstruct",
+    "params": [
+     {
+      "name": "ransomNote",
+      "type": "string"
+     },
+     {
+      "name": "magazine",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"a\"\n\"b\"",
+    "\"aa\"\n\"ab\"",
+    "\"aa\"\n\"aab\""
+   ],
+   "templateSha1": {
+    "py": "42e3bd5cdf0bb1d5a976fbbabe14c7333b9fcedf",
+    "cpp": "eb226f29dfc92b84056dfee84feb33a97726a97c",
+    "ts": "5c1845e9480f55c08914c1d4843403a534ab8dda"
+   }
+  },
+  {
+   "order": 40,
+   "id": "205",
+   "title": "Isomorphic Strings",
+   "slug": "isomorphic-strings",
+   "difficulty": "Easy",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0205-isomorphic-strings",
+   "metaData": {
+    "name": "isIsomorphic",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "t",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"egg\"\n\"add\"",
+    "\"foo\"\n\"bar\"",
+    "\"paper\"\n\"title\""
+   ],
+   "templateSha1": {
+    "py": "b2a52bcd18ec005444334b65ff733257de190f0d",
+    "cpp": "8ae184994a44cbeaed3e98123cd013f58100c264",
+    "ts": "6819b26bd524be28e80182f62e83ef05d2522449"
+   }
+  },
+  {
+   "order": 41,
+   "id": "290",
+   "title": "Word Pattern",
+   "slug": "word-pattern",
+   "difficulty": "Easy",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0290-word-pattern",
+   "metaData": {
+    "name": "wordPattern",
+    "params": [
+     {
+      "name": "pattern",
+      "type": "string"
+     },
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"abba\"\n\"dog cat cat dog\"",
+    "\"abba\"\n\"dog cat cat fish\"",
+    "\"aaaa\"\n\"dog cat cat dog\""
+   ],
+   "templateSha1": {
+    "py": "15570a20cbf4b9c66cdd5c8129ca5d4fc58e9ceb",
+    "cpp": "5dbf7f0ce77904a75ad2131f4df59ff2b9dde4d9",
+    "ts": "09e8afa3aff3b670600422d5bed10e549ed7c3a7"
+   }
+  },
+  {
+   "order": 42,
+   "id": "242",
+   "title": "Valid Anagram",
+   "slug": "valid-anagram",
+   "difficulty": "Easy",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0242-valid-anagram",
+   "metaData": {
+    "name": "isAnagram",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "t",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"anagram\"\n\"nagaram\"",
+    "\"rat\"\n\"car\""
+   ],
+   "templateSha1": {
+    "py": "3e7fadbac3a295cf39b11a8cad50e70ef9104e93",
+    "cpp": "866fbcb1af0136d981e9d27d74a1a1153aee8249",
+    "ts": "ebe49a9da082d5b10b17d276926daee12d67e373"
+   }
+  },
+  {
+   "order": 43,
+   "id": "49",
+   "title": "Group Anagrams",
+   "slug": "group-anagrams",
+   "difficulty": "Medium",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0049-group-anagrams",
+   "metaData": {
+    "name": "groupAnagrams",
+    "params": [
+     {
+      "name": "strs",
+      "type": "string[]"
+     }
+    ],
+    "return": {
+     "type": "list<list<string>>",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+    "[\"\"]",
+    "[\"a\"]"
+   ],
+   "templateSha1": {
+    "py": "fe0ec0defb23b5a4b07b5bf51a7de1662bbf012d",
+    "cpp": "9563fde268c06844e3da79efe7345a6e68b3cf51",
+    "ts": "ec05ccd6a349d4f24bd060172eef357a404b28a3"
+   }
+  },
+  {
+   "order": 44,
+   "id": "1",
+   "title": "Two Sum",
+   "slug": "two-sum",
+   "difficulty": "Easy",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0001-two-sum",
+   "metaData": {
+    "name": "twoSum",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "target",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer[]",
+     "size": 2
+    },
+    "manual": false
+   },
+   "exampleTestcases": [
+    "[2,7,11,15]\n9",
+    "[3,2,4]\n6",
+    "[3,3]\n6"
+   ],
+   "templateSha1": {
+    "py": "214e6b2ecb1734ecf70f398c766c8497ae5d11a0",
+    "cpp": "cfb5481066dfd63d52a5a4664ea82fe69eaf2442",
+    "ts": "6d3b49a4cb83e15358640e8787e0dbd2792e11b6"
+   }
+  },
+  {
+   "order": 45,
+   "id": "202",
+   "title": "Happy Number",
+   "slug": "happy-number",
+   "difficulty": "Easy",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0202-happy-number",
+   "metaData": {
+    "name": "isHappy",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "19",
+    "2"
+   ],
+   "templateSha1": {
+    "py": "23d54f89414e154d308760bb0e96cc82de7782bd",
+    "cpp": "f52854a17a4fdfc915f55fe35c3f6d4419d7226a",
+    "ts": "085fec98498da2b0c681da2340a28ed187d76800"
+   }
+  },
+  {
+   "order": 46,
+   "id": "219",
+   "title": "Contains Duplicate II",
+   "slug": "contains-duplicate-ii",
+   "difficulty": "Easy",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0219-contains-duplicate-ii",
+   "metaData": {
+    "name": "containsNearbyDuplicate",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,1]\n3",
+    "[1,0,1,1]\n1",
+    "[1,2,3,1,2,3]\n2"
+   ],
+   "templateSha1": {
+    "py": "990add170c0a932f052717bc8ad0833968885bbe",
+    "cpp": "167d9a51d48e2601a225002545835b3e26c773eb",
+    "ts": "30b591f9055777b23dc215b7a3e5b87f3d720595"
+   }
+  },
+  {
+   "order": 47,
+   "id": "128",
+   "title": "Longest Consecutive Sequence",
+   "slug": "longest-consecutive-sequence",
+   "difficulty": "Medium",
+   "group": "Hashmap",
+   "dir": "top150/05-hashmap/0128-longest-consecutive-sequence",
+   "metaData": {
+    "name": "longestConsecutive",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[100,4,200,1,3,2]",
+    "[0,3,7,2,5,8,4,6,0,1]",
+    "[1,0,1,2]"
+   ],
+   "templateSha1": {
+    "py": "fd380c34fd25ea9767ef4bdb1c32d7a6b58ce3bf",
+    "cpp": "f475ef54c81a3864cd125ddd9f93b38407ba395a",
+    "ts": "e1518d4c443fe49034e561f2ec6f75df0e56a3bf"
+   }
+  },
+  {
+   "order": 48,
+   "id": "228",
+   "title": "Summary Ranges",
+   "slug": "summary-ranges",
+   "difficulty": "Easy",
+   "group": "Intervals",
+   "dir": "top150/06-intervals/0228-summary-ranges",
+   "metaData": {
+    "name": "summaryRanges",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "list<string>"
+    }
+   },
+   "exampleTestcases": [
+    "[0,1,2,4,5,7]",
+    "[0,2,3,4,6,8,9]"
+   ],
+   "templateSha1": {
+    "py": "65e9c7446dd51f4ef83fcda4a872185ed3b2d4df",
+    "cpp": "45c899d97a4777d90f53e9edc034bd95ebeac7ad",
+    "ts": "a9fd5fb16beb654bdc2bff16c784f7788a2c0d0f"
+   }
+  },
+  {
+   "order": 49,
+   "id": "56",
+   "title": "Merge Intervals",
+   "slug": "merge-intervals",
+   "difficulty": "Medium",
+   "group": "Intervals",
+   "dir": "top150/06-intervals/0056-merge-intervals",
+   "metaData": {
+    "name": "merge",
+    "params": [
+     {
+      "name": "intervals",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "integer[][]"
+    }
+   },
+   "exampleTestcases": [
+    "[[1,3],[2,6],[8,10],[15,18]]",
+    "[[1,4],[4,5]]",
+    "[[4,7],[1,4]]"
+   ],
+   "templateSha1": {
+    "py": "4bd474882c24d3a15326400c971ee7d3d8b06974",
+    "cpp": "99e6ae8adbfb48891fd09832e8923b55f08a13c1",
+    "ts": "c5ebea5f203a80fb557c3e1ab9190ebaa10492b0"
+   }
+  },
+  {
+   "order": 50,
+   "id": "57",
+   "title": "Insert Interval",
+   "slug": "insert-interval",
+   "difficulty": "Medium",
+   "group": "Intervals",
+   "dir": "top150/06-intervals/0057-insert-interval",
+   "metaData": {
+    "name": "insert",
+    "params": [
+     {
+      "name": "intervals",
+      "type": "integer[][]"
+     },
+     {
+      "name": "newInterval",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer[][]"
+    }
+   },
+   "exampleTestcases": [
+    "[[1,3],[6,9]]\n[2,5]",
+    "[[1,2],[3,5],[6,7],[8,10],[12,16]]\n[4,8]"
+   ],
+   "templateSha1": {
+    "py": "a7671cd1b11ed7205881598744e5429bb9e5298e",
+    "cpp": "b04970b3988712c18d9e8afd919db3e4e1f2d94c",
+    "ts": "e3a3b087f9ec3980921c0e7f4d9352d08eaa299e"
+   }
+  },
+  {
+   "order": 51,
+   "id": "452",
+   "title": "Minimum Number of Arrows to Burst Balloons",
+   "slug": "minimum-number-of-arrows-to-burst-balloons",
+   "difficulty": "Medium",
+   "group": "Intervals",
+   "dir": "top150/06-intervals/0452-minimum-number-of-arrows-to-burst-balloons",
+   "metaData": {
+    "name": "findMinArrowShots",
+    "params": [
+     {
+      "name": "points",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[[10,16],[2,8],[1,6],[7,12]]",
+    "[[1,2],[3,4],[5,6],[7,8]]",
+    "[[1,2],[2,3],[3,4],[4,5]]"
+   ],
+   "templateSha1": {
+    "py": "5107ff77b6ee7e585e88e40c98658888da2e7610",
+    "cpp": "a7be921ba9ad8545653168fa370f7169e6c2bc80",
+    "ts": "3daf5c02d5e0626d4735b2c4fbaa6ed8b7258061"
+   }
+  },
+  {
+   "order": 52,
+   "id": "20",
+   "title": "Valid Parentheses",
+   "slug": "valid-parentheses",
+   "difficulty": "Easy",
+   "group": "Stack",
+   "dir": "top150/07-stack/0020-valid-parentheses",
+   "metaData": {
+    "name": "isValid",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"()\"",
+    "\"()[]{}\"",
+    "\"(]\"",
+    "\"([])\"",
+    "\"([)]\""
+   ],
+   "templateSha1": {
+    "py": "8ed9f4a7f893bc19d828359f595a54d44d571141",
+    "cpp": "8d4f3a8e6d374ea1a932f1cb2db4f26eb703898a",
+    "ts": "a1dec52eb01541921239e9069ca1480db145ae69"
+   }
+  },
+  {
+   "order": 53,
+   "id": "71",
+   "title": "Simplify Path",
+   "slug": "simplify-path",
+   "difficulty": "Medium",
+   "group": "Stack",
+   "dir": "top150/07-stack/0071-simplify-path",
+   "metaData": {
+    "name": "simplifyPath",
+    "params": [
+     {
+      "name": "path",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "\"/home/\"",
+    "\"/home//foo/\"",
+    "\"/home/user/Documents/../Pictures\"",
+    "\"/../\"",
+    "\"/.../a/../b/c/../d/./\""
+   ],
+   "templateSha1": {
+    "py": "b85f6e66011523cae7ee948efa3f81251177ca0f",
+    "cpp": "4c5feebb5eabb199795a9acda7edbbc3dc7ed6d0",
+    "ts": "c9dc1dc058d9704cfcf53bb52aea5dd3930b718f"
+   }
+  },
+  {
+   "order": 54,
+   "id": "155",
+   "title": "Min Stack",
+   "slug": "min-stack",
+   "difficulty": "Medium",
+   "group": "Stack",
+   "dir": "top150/07-stack/0155-min-stack",
+   "metaData": {
+    "classname": "MinStack",
+    "constructor": {
+     "params": []
+    },
+    "methods": [
+     {
+      "params": [
+       {
+        "type": "integer",
+        "name": "value"
+       }
+      ],
+      "return": {
+       "type": "void"
+      },
+      "name": "push"
+     },
+     {
+      "params": [],
+      "return": {
+       "type": "void"
+      },
+      "name": "pop"
+     },
+     {
+      "params": [],
+      "return": {
+       "type": "integer"
+      },
+      "name": "top"
+     },
+     {
+      "params": [],
+      "return": {
+       "type": "integer"
+      },
+      "name": "getMin"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    },
+    "systemdesign": true
+   },
+   "exampleTestcases": [
+    "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]"
+   ],
+   "templateSha1": {
+    "py": "3a539f3cfe92b818c96e744240d7c0dc43115e5d",
+    "cpp": "840359c8f8eeb9e4ab52ce2a3ee3087e9af41fe8",
+    "ts": "2eea833a8f3fb7a0c8d902dfa6d13dfe84331c7b"
+   }
+  },
+  {
+   "order": 55,
+   "id": "150",
+   "title": "Evaluate Reverse Polish Notation",
+   "slug": "evaluate-reverse-polish-notation",
+   "difficulty": "Medium",
+   "group": "Stack",
+   "dir": "top150/07-stack/0150-evaluate-reverse-polish-notation",
+   "metaData": {
+    "name": "evalRPN",
+    "params": [
+     {
+      "name": "tokens",
+      "type": "string[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[\"2\",\"1\",\"+\",\"3\",\"*\"]",
+    "[\"4\",\"13\",\"5\",\"/\",\"+\"]",
+    "[\"10\",\"6\",\"9\",\"3\",\"+\",\"-11\",\"*\",\"/\",\"*\",\"17\",\"+\",\"5\",\"+\"]"
+   ],
+   "templateSha1": {
+    "py": "4b98f2b32262c7188da612aab319334bc6a9f514",
+    "cpp": "6132aed07bd0b41d5cefaf9dec1fbe8611e96dd4",
+    "ts": "7fb65246c76bacc18cbec78ebb9b9048b5f405a2"
+   }
+  },
+  {
+   "order": 56,
+   "id": "224",
+   "title": "Basic Calculator",
+   "slug": "basic-calculator",
+   "difficulty": "Hard",
+   "group": "Stack",
+   "dir": "top150/07-stack/0224-basic-calculator",
+   "metaData": {
+    "name": "calculate",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"1 + 1\"",
+    "\" 2-1 + 2 \"",
+    "\"(1+(4+5+2)-3)+(6+8)\""
+   ],
+   "templateSha1": {
+    "py": "c9cb6f7e2b2446ff8a9bbe2e080d6402af46e7a4",
+    "cpp": "0afa67b49969e57cd189b64e22a6c7d4e54d383a",
+    "ts": "d99643ef0cabd733c179c711d1213e0dbe40d464"
+   }
+  },
+  {
+   "order": 57,
+   "id": "141",
+   "title": "Linked List Cycle",
+   "slug": "linked-list-cycle",
+   "difficulty": "Easy",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0141-linked-list-cycle",
+   "metaData": {
+    "name": "hasCycle",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode"
+     },
+     {
+      "name": "pos",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    },
+    "manual": true,
+    "languages": [
+     "cpp",
+     "java",
+     "python",
+     "c",
+     "csharp",
+     "javascript",
+     "ruby",
+     "swift",
+     "golang",
+     "python3",
+     "scala",
+     "kotlin",
+     "php",
+     "typescript"
+    ]
+   },
+   "exampleTestcases": [
+    "[3,2,0,-4]\n1",
+    "[1,2]\n0",
+    "[1]\n-1"
+   ],
+   "templateSha1": {
+    "py": "be9c510ba5054ffd09b2f318773abbca108e4da9",
+    "cpp": "f3a22a9e4efa81e675f8099c6a718574585872b7",
+    "ts": "6f214e5bfac15f554e1cfe4d9ff58447719361b9"
+   }
+  },
+  {
+   "order": 58,
+   "id": "2",
+   "title": "Add Two Numbers",
+   "slug": "add-two-numbers",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0002-add-two-numbers",
+   "metaData": {
+    "name": "addTwoNumbers",
+    "params": [
+     {
+      "name": "l1",
+      "type": "ListNode",
+      "dealloc": false
+     },
+     {
+      "name": "l2",
+      "type": "ListNode",
+      "dealloc": false
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[2,4,3]\n[5,6,4]",
+    "[0]\n[0]",
+    "[9,9,9,9,9,9,9]\n[9,9,9,9]"
+   ],
+   "templateSha1": {
+    "py": "9b44a985f8619a2fbc2858944b417712ba9c2e9c",
+    "cpp": "7298462147f71ce32b3b97f6a658c2f662d061f0",
+    "ts": "48a97b6cd945a72b6607db39841e3f072f0196ea"
+   }
+  },
+  {
+   "order": 59,
+   "id": "21",
+   "title": "Merge Two Sorted Lists",
+   "slug": "merge-two-sorted-lists",
+   "difficulty": "Easy",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0021-merge-two-sorted-lists",
+   "metaData": {
+    "name": "mergeTwoLists",
+    "params": [
+     {
+      "name": "list1",
+      "type": "ListNode",
+      "dealloc": false
+     },
+     {
+      "name": "list2",
+      "type": "ListNode",
+      "dealloc": false
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,4]\n[1,3,4]",
+    "[]\n[]",
+    "[]\n[0]"
+   ],
+   "templateSha1": {
+    "py": "d578b052b4b275d35b548a1b136f3f90d0be0117",
+    "cpp": "99a612d30b32832e71e208204f8f6eb6d7c10c36",
+    "ts": "fe4342a478b20954624e462b346e7979067fce03"
+   }
+  },
+  {
+   "order": 60,
+   "id": "138",
+   "title": "Copy List with Random Pointer",
+   "slug": "copy-list-with-random-pointer",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0138-copy-list-with-random-pointer",
+   "metaData": {
+    "name": "copyRandomList",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode"
+     }
+    ],
+    "return": {
+     "type": "ListNode"
+    },
+    "languages": [
+     "cpp",
+     "java",
+     "python",
+     "csharp",
+     "javascript",
+     "python3",
+     "golang",
+     "swift",
+     "kotlin",
+     "ruby",
+     "c",
+     "scala",
+     "php",
+     "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    next: _Node | null\n    random: _Node | null\n\n    constructor(val?: number, next?: _Node, random?: _Node) {\n        this.val = (val===undefined ? 0 : val)\n        this.next = (next===undefined ? null : next)\n        this.random = (random===undefined ? null : random)\n    }\n}\n"
+   },
+   "exampleTestcases": [
+    "[[7,null],[13,0],[11,4],[10,2],[1,0]]",
+    "[[1,1],[2,1]]",
+    "[[3,null],[3,0],[3,null]]"
+   ],
+   "templateSha1": {
+    "py": "81d5963b1ff6060f3d43e9bd653e1cf68af59a5c",
+    "cpp": "00dfbe7a45766cdafb6158270e08f6eb080429e1",
+    "ts": "a571bd58d1a836599dfb1adc6c9da94aaa2a2cac"
+   }
+  },
+  {
+   "order": 61,
+   "id": "92",
+   "title": "Reverse Linked List II",
+   "slug": "reverse-linked-list-ii",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0092-reverse-linked-list-ii",
+   "metaData": {
+    "name": "reverseBetween",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+     },
+     {
+      "name": "left",
+      "type": "integer"
+     },
+     {
+      "name": "right",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5]\n2\n4",
+    "[5]\n1\n1"
+   ],
+   "templateSha1": {
+    "py": "a29a396c543c3184dc51cfda12f41b311f0d3f8b",
+    "cpp": "6a6aad8a3e9c01b394878758795ca12687fbe5a8",
+    "ts": "c163293ffb2ceb6774ea6910cc20f83b471040c9"
+   }
+  },
+  {
+   "order": 62,
+   "id": "25",
+   "title": "Reverse Nodes in k-Group",
+   "slug": "reverse-nodes-in-k-group",
+   "difficulty": "Hard",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0025-reverse-nodes-in-k-group",
+   "metaData": {
+    "name": "reverseKGroup",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "ListNode"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5]\n2",
+    "[1,2,3,4,5]\n3"
+   ],
+   "templateSha1": {
+    "py": "6d97fdc2edb2f5196e4ea18b16d8222fcb5ced81",
+    "cpp": "e9493a0d673095ad473b4a88bcf9d64d5289a9de",
+    "ts": "2225170391763b4124926920f705a58c29ae276e"
+   }
+  },
+  {
+   "order": 63,
+   "id": "19",
+   "title": "Remove Nth Node From End of List",
+   "slug": "remove-nth-node-from-end-of-list",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0019-remove-nth-node-from-end-of-list",
+   "metaData": {
+    "name": "removeNthFromEnd",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+     },
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5]\n2",
+    "[1]\n1",
+    "[1,2]\n1"
+   ],
+   "templateSha1": {
+    "py": "3ea177f1033165f4b5396fd30ea3aaa842410c85",
+    "cpp": "67cec040db2fd3809b96113156772ebbc98c09cb",
+    "ts": "41f87506e10f94d3fa72b094f8a81e8dc1bb7232"
+   }
+  },
+  {
+   "order": 64,
+   "id": "82",
+   "title": "Remove Duplicates from Sorted List II",
+   "slug": "remove-duplicates-from-sorted-list-ii",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0082-remove-duplicates-from-sorted-list-ii",
+   "metaData": {
+    "name": "deleteDuplicates",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,3,4,4,5]",
+    "[1,1,1,2,3]"
+   ],
+   "templateSha1": {
+    "py": "f9a01d68a21b22445a54e696b51c6d15cf0b3d3f",
+    "cpp": "b8a548e1630ccb84c043669df44023189beea792",
+    "ts": "fbc678442b3e64275e097327ae6916ee9e14174c"
+   }
+  },
+  {
+   "order": 65,
+   "id": "61",
+   "title": "Rotate List",
+   "slug": "rotate-list",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0061-rotate-list",
+   "metaData": {
+    "name": "rotateRight",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5]\n2",
+    "[0,1,2]\n4"
+   ],
+   "templateSha1": {
+    "py": "8be16b93b3905b5707975e72f49acf2fba80118b",
+    "cpp": "1807bef8a35bc755860031b442929049919206e4",
+    "ts": "08db5d53b70f37855b77a800f79d2ec65b5ff534"
+   }
+  },
+  {
+   "order": 66,
+   "id": "86",
+   "title": "Partition List",
+   "slug": "partition-list",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0086-partition-list",
+   "metaData": {
+    "name": "partition",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+     },
+     {
+      "name": "x",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,4,3,2,5,2]\n3",
+    "[2,1]\n2"
+   ],
+   "templateSha1": {
+    "py": "76da1185eb945b2c0ba9a2322261d2aee3ba6fb2",
+    "cpp": "c574a5b5f4c9f1f914afcc8fa86fbf4513235c47",
+    "ts": "b17eb9c46e023c793a969db75a4c657164c2673a"
+   }
+  },
+  {
+   "order": 67,
+   "id": "146",
+   "title": "LRU Cache",
+   "slug": "lru-cache",
+   "difficulty": "Medium",
+   "group": "Linked List",
+   "dir": "top150/08-linked-list/0146-lru-cache",
+   "metaData": {
+    "classname": "LRUCache",
+    "maxbytesperline": 200000,
+    "constructor": {
+     "params": [
+      {
+       "type": "integer",
+       "name": "capacity"
+      }
+     ]
+    },
+    "methods": [
+     {
+      "name": "get",
+      "params": [
+       {
+        "type": "integer",
+        "name": "key"
+       }
+      ],
+      "return": {
+       "type": "integer"
+      }
+     },
+     {
+      "name": "put",
+      "params": [
+       {
+        "type": "integer",
+        "name": "key"
+       },
+       {
+        "type": "integer",
+        "name": "value"
+       }
+      ],
+      "return": {
+       "type": "void"
+      }
+     }
+    ],
+    "systemdesign": true,
+    "params": [
+     {
+      "name": "inputs",
+      "type": "integer[]"
+     },
+     {
+      "name": "inputs",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "list<String>",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[\"LRUCache\",\"put\",\"put\",\"get\",\"put\",\"get\",\"put\",\"get\",\"get\",\"get\"]\n[[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]"
+   ],
+   "templateSha1": {
+    "py": "21137ba15c5a270b6b6c010be33b637b3028090c",
+    "cpp": "587a3f3ac2aa23f67cf47ceaff57db8d89a0c0db",
+    "ts": "4de8d33713d15bdf3e6be79507179c8c43890a82"
+   }
+  },
+  {
+   "order": 68,
+   "id": "104",
+   "title": "Maximum Depth of Binary Tree",
+   "slug": "maximum-depth-of-binary-tree",
+   "difficulty": "Easy",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0104-maximum-depth-of-binary-tree",
+   "metaData": {
+    "name": "maxDepth",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[3,9,20,null,null,15,7]",
+    "[1,null,2]"
+   ],
+   "templateSha1": {
+    "py": "15afce0743ec0328d621ad60b9f78b557fb2f1bf",
+    "cpp": "109395c03e65e61a5aea0ea069d84834997bb5ac",
+    "ts": "b2ca0e32bbdabef8a6611fa02839a84b6d7026e8"
+   }
+  },
+  {
+   "order": 69,
+   "id": "100",
+   "title": "Same Tree",
+   "slug": "same-tree",
+   "difficulty": "Easy",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0100-same-tree",
+   "metaData": {
+    "name": "isSameTree",
+    "params": [
+     {
+      "name": "p",
+      "type": "TreeNode"
+     },
+     {
+      "name": "q",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3]\n[1,2,3]",
+    "[1,2]\n[1,null,2]",
+    "[1,2,1]\n[1,1,2]"
+   ],
+   "templateSha1": {
+    "py": "a92e07804b2bb4963163d9056ac5959b9fd62ed1",
+    "cpp": "6ae824d566272164d0228e65329f7ff4462a744d",
+    "ts": "8ed836ed09d6382b59e0bb87bb37a0673689f7e7"
+   }
+  },
+  {
+   "order": 70,
+   "id": "226",
+   "title": "Invert Binary Tree",
+   "slug": "invert-binary-tree",
+   "difficulty": "Easy",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0226-invert-binary-tree",
+   "metaData": {
+    "name": "invertTree",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "TreeNode"
+    }
+   },
+   "exampleTestcases": [
+    "[4,2,7,1,3,6,9]",
+    "[2,1,3]",
+    "[]"
+   ],
+   "templateSha1": {
+    "py": "0b465b7a16618e579f9627fca7622de678c8ccaa",
+    "cpp": "854ec6079e9857c7e853a461e3a7ce879f9de785",
+    "ts": "18cf0f5c69b8501a88f5e437be37b36c917755f1"
+   }
+  },
+  {
+   "order": 71,
+   "id": "101",
+   "title": "Symmetric Tree",
+   "slug": "symmetric-tree",
+   "difficulty": "Easy",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0101-symmetric-tree",
+   "metaData": {
+    "name": "isSymmetric",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,2,3,4,4,3]",
+    "[1,2,2,null,3,null,3]"
+   ],
+   "templateSha1": {
+    "py": "1bcb533d8dcfaf5e6eb9af4ba5f033870800bed5",
+    "cpp": "9c92d060765e542250fc72c002e2ca3916472c71",
+    "ts": "7aa8b157d0ea1b6435d1c5bbd594cccff1857e26"
+   }
+  },
+  {
+   "order": 72,
+   "id": "105",
+   "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+   "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0105-construct-binary-tree-from-preorder-and-inorder-traversal",
+   "metaData": {
+    "name": "buildTree",
+    "params": [
+     {
+      "name": "preorder",
+      "type": "integer[]"
+     },
+     {
+      "name": "inorder",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "TreeNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[3,9,20,15,7]\n[9,3,15,20,7]",
+    "[-1]\n[-1]"
+   ],
+   "templateSha1": {
+    "py": "4b0c72213e70343ef9e9fed2cd93ce26b4f3fa58",
+    "cpp": "97c58bf601a1b3a2f09ed260df37d7aec8d2e4e8",
+    "ts": "8dab31312e8bc8747d08dd2c00f9eddddeb57bc2"
+   }
+  },
+  {
+   "order": 73,
+   "id": "106",
+   "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+   "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0106-construct-binary-tree-from-inorder-and-postorder-traversal",
+   "metaData": {
+    "name": "buildTree",
+    "params": [
+     {
+      "name": "inorder",
+      "type": "integer[]"
+     },
+     {
+      "name": "postorder",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "TreeNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[9,3,15,20,7]\n[9,15,7,20,3]",
+    "[-1]\n[-1]"
+   ],
+   "templateSha1": {
+    "py": "d2f70272c427f59c53f9159199fcd7d0cc3b1d55",
+    "cpp": "88fe36f033e330f41846cc2009957373c479bd39",
+    "ts": "53cfd4b5f72e2d508d909f79d52124cc7bb2bb28"
+   }
+  },
+  {
+   "order": 74,
+   "id": "117",
+   "title": "Populating Next Right Pointers in Each Node II",
+   "slug": "populating-next-right-pointers-in-each-node-ii",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0117-populating-next-right-pointers-in-each-node-ii",
+   "metaData": {
+    "name": "connect",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "TreeNode"
+    },
+    "languages": [
+     "cpp",
+     "java",
+     "python",
+     "csharp",
+     "javascript",
+     "python3",
+     "golang",
+     "swift",
+     "kotlin",
+     "ruby",
+     "c",
+     "scala",
+     "php",
+     "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    left: _Node | null\n    right: _Node | null\n    next: _Node | null\n\n    constructor(val?: number, left?: _Node, right?: _Node, next?: _Node) {\n        this.val = (val===undefined ? 0 : val)\n        this.left = (left===undefined ? null : left)\n        this.right = (right===undefined ? null : right)\n        this.next = (next===undefined ? null : next)\n    }\n}\n"
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5,null,7]",
+    "[]"
+   ],
+   "templateSha1": {
+    "py": "fca10ad996049e9ca6387171b0a1d0e19d1d4514",
+    "cpp": "4cffe41bbc57669976cbdb3c2259ea611399c4ec",
+    "ts": "6ef3d8cde04fb6ac9c909c5ede52223d14264046"
+   }
+  },
+  {
+   "order": 75,
+   "id": "114",
+   "title": "Flatten Binary Tree to Linked List",
+   "slug": "flatten-binary-tree-to-linked-list",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0114-flatten-binary-tree-to-linked-list",
+   "metaData": {
+    "name": "flatten",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "void"
+    },
+    "output": {
+     "paramindex": 0
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,5,3,4,null,6]",
+    "[]",
+    "[0]"
+   ],
+   "templateSha1": {
+    "py": "1b18a63a3d8534e5f3e25cd48180228674e38007",
+    "cpp": "d2e5d24cde9c6ffdc1c8fb2d81f41c88dd02c14a",
+    "ts": "4d436d90147f26613b73117c633bbe6996feed3b"
+   }
+  },
+  {
+   "order": 76,
+   "id": "112",
+   "title": "Path Sum",
+   "slug": "path-sum",
+   "difficulty": "Easy",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0112-path-sum",
+   "metaData": {
+    "name": "hasPathSum",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     },
+     {
+      "name": "targetSum",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[5,4,8,11,null,13,4,7,2,null,null,null,1]\n22",
+    "[1,2,3]\n5",
+    "[]\n0"
+   ],
+   "templateSha1": {
+    "py": "fb1c4c8e2ae553022a4850536646fadd25430aef",
+    "cpp": "c6962aae010fc502cf73d0ab06d3f63985c48105",
+    "ts": "832cfcc22e80fac4ee8c95647d5d596963973ffe"
+   }
+  },
+  {
+   "order": 77,
+   "id": "129",
+   "title": "Sum Root to Leaf Numbers",
+   "slug": "sum-root-to-leaf-numbers",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0129-sum-root-to-leaf-numbers",
+   "metaData": {
+    "name": "sumNumbers",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3]",
+    "[4,9,0,5,1]"
+   ],
+   "templateSha1": {
+    "py": "5e3e962fee6f38a928883e459c9aca6f3a37c5ac",
+    "cpp": "0f5264e37cff5a0017b4c89b41a29db441ed600d",
+    "ts": "5096bda2180ee128e9ced7b10adc5cdeca3cae67"
+   }
+  },
+  {
+   "order": 78,
+   "id": "124",
+   "title": "Binary Tree Maximum Path Sum",
+   "slug": "binary-tree-maximum-path-sum",
+   "difficulty": "Hard",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0124-binary-tree-maximum-path-sum",
+   "metaData": {
+    "name": "maxPathSum",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3]",
+    "[-10,9,20,null,null,15,7]"
+   ],
+   "templateSha1": {
+    "py": "7daafcfd7d1e491b1314eb5d03f8e1daa17d2a1a",
+    "cpp": "ae7b0cd570dbb74cc7af8d064e39f6d71fc03b81",
+    "ts": "f42f53aaafa6e8d768f5c762568ecba4ab4fcc90"
+   }
+  },
+  {
+   "order": 79,
+   "id": "173",
+   "title": "Binary Search Tree Iterator",
+   "slug": "binary-search-tree-iterator",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0173-binary-search-tree-iterator",
+   "metaData": {
+    "classname": "BSTIterator",
+    "maxbytesperline": 200000,
+    "constructor": {
+     "params": [
+      {
+       "type": "TreeNode",
+       "name": "root"
+      }
+     ]
+    },
+    "methods": [
+     {
+      "params": [],
+      "name": "next",
+      "return": {
+       "type": "integer"
+      }
+     },
+     {
+      "params": [],
+      "name": "hasNext",
+      "return": {
+       "type": "boolean"
+      }
+     }
+    ],
+    "systemdesign": true,
+    "params": [
+     {
+      "name": "inputs",
+      "type": "integer[]"
+     },
+     {
+      "name": "inputs",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer[]",
+     "dealloc": true
+    },
+    "manual": false
+   },
+   "exampleTestcases": [
+    "[\"BSTIterator\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[[7,3,15,null,null,9,20]],[],[],[],[],[],[],[],[],[]]"
+   ],
+   "templateSha1": {
+    "py": "9342dc1e721a5d5cf0af0f79f724f1ebd724eb84",
+    "cpp": "3046ba088146600e6b498c1642d2861fcd6a2b4e",
+    "ts": "e76b47f0dec3827c9cbd4ac4a3b9bdaa528f0097"
+   }
+  },
+  {
+   "order": 80,
+   "id": "222",
+   "title": "Count Complete Tree Nodes",
+   "slug": "count-complete-tree-nodes",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0222-count-complete-tree-nodes",
+   "metaData": {
+    "name": "countNodes",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,4,5,6]",
+    "[]",
+    "[1]"
+   ],
+   "templateSha1": {
+    "py": "a5c5cb41799d48f27c95fc07e185dac6da0d7480",
+    "cpp": "fad0111ade5b0a7dca02257985dc0859d997d2e8",
+    "ts": "96e22d4b6947758e0f3df9b65d05e952c93e4d5d"
+   }
+  },
+  {
+   "order": 81,
+   "id": "236",
+   "title": "Lowest Common Ancestor of a Binary Tree",
+   "slug": "lowest-common-ancestor-of-a-binary-tree",
+   "difficulty": "Medium",
+   "group": "Binary Tree General",
+   "dir": "top150/09-binary-tree-general/0236-lowest-common-ancestor-of-a-binary-tree",
+   "metaData": {
+    "name": "lowestCommonAncestor",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     },
+     {
+      "name": "p",
+      "type": "integer"
+     },
+     {
+      "name": "q",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "TreeNode"
+    },
+    "manual": true
+   },
+   "exampleTestcases": [
+    "[3,5,1,6,2,0,8,null,null,7,4]\n5\n1",
+    "[3,5,1,6,2,0,8,null,null,7,4]\n5\n4",
+    "[1,2]\n1\n2"
+   ],
+   "templateSha1": {
+    "py": "d8e514572b3cf87033523211f9ed30a0fe296270",
+    "cpp": "a9e5ab0cf251cc953e545e278cad3cccfde4639c",
+    "ts": "09168fef1ba1b05ab164cd6c51a7218ebb072857"
+   }
+  },
+  {
+   "order": 82,
+   "id": "199",
+   "title": "Binary Tree Right Side View",
+   "slug": "binary-tree-right-side-view",
+   "difficulty": "Medium",
+   "group": "Binary Tree BFS",
+   "dir": "top150/10-binary-tree-bfs/0199-binary-tree-right-side-view",
+   "metaData": {
+    "name": "rightSideView",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "list<integer>",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,null,5,null,4]",
+    "[1,2,3,4,null,null,null,5]",
+    "[1,null,3]",
+    "[]"
+   ],
+   "templateSha1": {
+    "py": "f8fb1b3e88f0d743133b875ec940997e1b5ca30c",
+    "cpp": "f15a4c35b121bcf55c6419fe1f2f3c4cec7c89ba",
+    "ts": "26ade255697124908ea44edcd5ee10fff8d68a3c"
+   }
+  },
+  {
+   "order": 83,
+   "id": "637",
+   "title": "Average of Levels in Binary Tree",
+   "slug": "average-of-levels-in-binary-tree",
+   "difficulty": "Easy",
+   "group": "Binary Tree BFS",
+   "dir": "top150/10-binary-tree-bfs/0637-average-of-levels-in-binary-tree",
+   "metaData": {
+    "name": "averageOfLevels",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "list<double>"
+    }
+   },
+   "exampleTestcases": [
+    "[3,9,20,null,null,15,7]",
+    "[3,9,20,15,7]"
+   ],
+   "templateSha1": {
+    "py": "90d1f03263f4e9f4dcb2cb3908db14a7fab31e85",
+    "cpp": "b3a24e01497c7f7f403c96dd65ee5231f9cebbe5",
+    "ts": "d8ab65ee58ec16337ce8206dbbd4c518535cbe4c"
+   }
+  },
+  {
+   "order": 84,
+   "id": "102",
+   "title": "Binary Tree Level Order Traversal",
+   "slug": "binary-tree-level-order-traversal",
+   "difficulty": "Medium",
+   "group": "Binary Tree BFS",
+   "dir": "top150/10-binary-tree-bfs/0102-binary-tree-level-order-traversal",
+   "metaData": {
+    "name": "levelOrder",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[3,9,20,null,null,15,7]",
+    "[1]",
+    "[]"
+   ],
+   "templateSha1": {
+    "py": "f7fa911bd6a1a478bf2e2e94aaf8c40ed03d3386",
+    "cpp": "86c6294581b5501f3041584eb26b75f7fc7359b7",
+    "ts": "e7ea7a90d75b655a926e15a6188dce32f367e081"
+   }
+  },
+  {
+   "order": 85,
+   "id": "103",
+   "title": "Binary Tree Zigzag Level Order Traversal",
+   "slug": "binary-tree-zigzag-level-order-traversal",
+   "difficulty": "Medium",
+   "group": "Binary Tree BFS",
+   "dir": "top150/10-binary-tree-bfs/0103-binary-tree-zigzag-level-order-traversal",
+   "metaData": {
+    "name": "zigzagLevelOrder",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[3,9,20,null,null,15,7]",
+    "[1]",
+    "[]"
+   ],
+   "templateSha1": {
+    "py": "4585197f7883c4fd22384400bfdbd5bb56279448",
+    "cpp": "8b6ab50b536d789d12c4661abf03e9cddb46327b",
+    "ts": "b6bae9f9f8d5772d21cdc73399eaba1935de9ae7"
+   }
+  },
+  {
+   "order": 86,
+   "id": "530",
+   "title": "Minimum Absolute Difference in BST",
+   "slug": "minimum-absolute-difference-in-bst",
+   "difficulty": "Easy",
+   "group": "Binary Search Tree",
+   "dir": "top150/11-binary-search-tree/0530-minimum-absolute-difference-in-bst",
+   "metaData": {
+    "name": "getMinimumDifference",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[4,2,6,1,3]",
+    "[1,0,48,null,null,12,49]"
+   ],
+   "templateSha1": {
+    "py": "b23db0b12f05eaadbe33550ebde6b3509c0fd65b",
+    "cpp": "b227d6f72b32608502a09a137d8d324687f022d4",
+    "ts": "878609ef679e4bc2a6f26da96eb06513cc4050c5"
+   }
+  },
+  {
+   "order": 87,
+   "id": "230",
+   "title": "Kth Smallest Element in a BST",
+   "slug": "kth-smallest-element-in-a-bst",
+   "difficulty": "Medium",
+   "group": "Binary Search Tree",
+   "dir": "top150/11-binary-search-tree/0230-kth-smallest-element-in-a-bst",
+   "metaData": {
+    "name": "kthSmallest",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[3,1,4,null,2]\n1",
+    "[5,3,6,2,4,null,null,1]\n3"
+   ],
+   "templateSha1": {
+    "py": "dff29ad184feebeb4262959e1bf6b83c0a43130b",
+    "cpp": "47d9a1bc7ef6996e798e7bfad7828c4d6c5e420d",
+    "ts": "ca4541e78fea053e32a5dc17b00738260f13e2c9"
+   }
+  },
+  {
+   "order": 88,
+   "id": "98",
+   "title": "Validate Binary Search Tree",
+   "slug": "validate-binary-search-tree",
+   "difficulty": "Medium",
+   "group": "Binary Search Tree",
+   "dir": "top150/11-binary-search-tree/0098-validate-binary-search-tree",
+   "metaData": {
+    "name": "isValidBST",
+    "params": [
+     {
+      "name": "root",
+      "type": "TreeNode"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[2,1,3]",
+    "[5,1,4,null,null,3,6]"
+   ],
+   "templateSha1": {
+    "py": "a36a5d93c5ef4716127a8b4efd605ae8ac15549f",
+    "cpp": "27986b07b7da3ac396feb7eec7475b26077be9fe",
+    "ts": "c483b8d39f0a8ff134d1b6176440db6b0429ff2e"
+   }
+  },
+  {
+   "order": 89,
+   "id": "200",
+   "title": "Number of Islands",
+   "slug": "number-of-islands",
+   "difficulty": "Medium",
+   "group": "Graph General",
+   "dir": "top150/12-graph-general/0200-number-of-islands",
+   "metaData": {
+    "name": "numIslands",
+    "params": [
+     {
+      "name": "grid",
+      "type": "character[][]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    },
+    "manual": true
+   },
+   "exampleTestcases": [
+    "[[\"1\",\"1\",\"1\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"0\",\"0\",\"0\"]]",
+    "[[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"1\",\"0\",\"0\"],[\"0\",\"0\",\"0\",\"1\",\"1\"]]"
+   ],
+   "templateSha1": {
+    "py": "5ed2106cb1016528618c389ffd9859e93641d0d8",
+    "cpp": "54b2cd8453573485f33ec0df98ebf5d67c3b5ced",
+    "ts": "acf53e293593634bbf3dd449a6a80c61b8460a6d"
+   }
+  },
+  {
+   "order": 90,
+   "id": "130",
+   "title": "Surrounded Regions",
+   "slug": "surrounded-regions",
+   "difficulty": "Medium",
+   "group": "Graph General",
+   "dir": "top150/12-graph-general/0130-surrounded-regions",
+   "metaData": {
+    "name": "solve",
+    "params": [
+     {
+      "name": "board",
+      "type": "character[][]"
+     }
+    ],
+    "return": {
+     "type": "void"
+    },
+    "output": {
+     "paramindex": 0
+    }
+   },
+   "exampleTestcases": [
+    "[[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"O\",\"O\",\"X\"],[\"X\",\"X\",\"O\",\"X\"],[\"X\",\"O\",\"X\",\"X\"]]",
+    "[[\"X\"]]"
+   ],
+   "templateSha1": {
+    "py": "102d186d48ac34bb3f75d8eed7a15b86bf80e3ea",
+    "cpp": "f55de288f43b651a6add7ae32bb219a5672d3aa7",
+    "ts": "3f161c1437aa67c15eb1caf0b5c510fdddc00ca9"
+   }
+  },
+  {
+   "order": 91,
+   "id": "133",
+   "title": "Clone Graph",
+   "slug": "clone-graph",
+   "difficulty": "Medium",
+   "group": "Graph General",
+   "dir": "top150/12-graph-general/0133-clone-graph",
+   "metaData": {
+    "name": "cloneGraph",
+    "params": [
+     {
+      "name": "edges",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    },
+    "languages": [
+     "cpp",
+     "java",
+     "python",
+     "csharp",
+     "javascript",
+     "python3",
+     "golang",
+     "swift",
+     "kotlin",
+     "ruby",
+     "c",
+     "scala",
+     "php",
+     "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    neighbors: _Node[]\n\n    constructor(val?: number, neighbors?: _Node[]) {\n        this.val = (val===undefined ? 0 : val)\n        this.neighbors = (neighbors===undefined ? [] : neighbors)\n    }\n}\n"
+   },
+   "exampleTestcases": [
+    "[[2,4],[1,3],[2,4],[1,3]]",
+    "[[]]",
+    "[]"
+   ],
+   "templateSha1": {
+    "py": "b907d4b56d09b8365bd1fdf9033b1ad9c89c7ca6",
+    "cpp": "5229248fcef806b64fd98f4b20f8b0c43993e19f",
+    "ts": "c9c25069970e15eaa1c41ab666d57336e8a42980"
+   }
+  },
+  {
+   "order": 92,
+   "id": "399",
+   "title": "Evaluate Division",
+   "slug": "evaluate-division",
+   "difficulty": "Medium",
+   "group": "Graph General",
+   "dir": "top150/12-graph-general/0399-evaluate-division",
+   "metaData": {
+    "name": "calcEquation",
+    "params": [
+     {
+      "name": "equations",
+      "type": "list<list<string>>"
+     },
+     {
+      "name": "values",
+      "type": "double[]"
+     },
+     {
+      "name": "queries",
+      "type": "list<list<string>>"
+     }
+    ],
+    "return": {
+     "type": "double[]"
+    }
+   },
+   "exampleTestcases": [
+    "[[\"a\",\"b\"],[\"b\",\"c\"]]\n[2.0,3.0]\n[[\"a\",\"c\"],[\"b\",\"a\"],[\"a\",\"e\"],[\"a\",\"a\"],[\"x\",\"x\"]]",
+    "[[\"a\",\"b\"],[\"b\",\"c\"],[\"bc\",\"cd\"]]\n[1.5,2.5,5.0]\n[[\"a\",\"c\"],[\"c\",\"b\"],[\"bc\",\"cd\"],[\"cd\",\"bc\"]]",
+    "[[\"a\",\"b\"]]\n[0.5]\n[[\"a\",\"b\"],[\"b\",\"a\"],[\"a\",\"c\"],[\"x\",\"y\"]]"
+   ],
+   "templateSha1": {
+    "py": "54a513a4c58355b517e7b39ade01a1232ca05de0",
+    "cpp": "42f0e31030522faf651a556ad262ff95ad319464",
+    "ts": "0237922d68fa577549abd358f9760e6660817aab"
+   }
+  },
+  {
+   "order": 93,
+   "id": "207",
+   "title": "Course Schedule",
+   "slug": "course-schedule",
+   "difficulty": "Medium",
+   "group": "Graph General",
+   "dir": "top150/12-graph-general/0207-course-schedule",
+   "metaData": {
+    "name": "canFinish",
+    "params": [
+     {
+      "name": "numCourses",
+      "type": "integer"
+     },
+     {
+      "name": "prerequisites",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "2\n[[1,0]]",
+    "2\n[[1,0],[0,1]]"
+   ],
+   "templateSha1": {
+    "py": "67bf5d7479d5eb001c80652c5936a2d8f281ca82",
+    "cpp": "4b67715f14d91e339f7ce5a5e92f0e70261e6242",
+    "ts": "c15f221bbb74fd6713a69f4e3ab7c9cfd0f98540"
+   }
+  },
+  {
+   "order": 94,
+   "id": "210",
+   "title": "Course Schedule II",
+   "slug": "course-schedule-ii",
+   "difficulty": "Medium",
+   "group": "Graph General",
+   "dir": "top150/12-graph-general/0210-course-schedule-ii",
+   "metaData": {
+    "name": "findOrder",
+    "params": [
+     {
+      "name": "numCourses",
+      "type": "integer"
+     },
+     {
+      "name": "prerequisites",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "integer[]"
+    }
+   },
+   "exampleTestcases": [
+    "2\n[[1,0]]",
+    "4\n[[1,0],[2,0],[3,1],[3,2]]",
+    "1\n[]"
+   ],
+   "templateSha1": {
+    "py": "95b3470d85e0ce1152852262625f603d0c0a8d46",
+    "cpp": "f850ed38a68965bd0b07be6675f054aa3ba54bf5",
+    "ts": "7a402d57f75bbfa9d6cc56a5358d6422c5bed3fb"
+   }
+  },
+  {
+   "order": 95,
+   "id": "909",
+   "title": "Snakes and Ladders",
+   "slug": "snakes-and-ladders",
+   "difficulty": "Medium",
+   "group": "Graph BFS",
+   "dir": "top150/13-graph-bfs/0909-snakes-and-ladders",
+   "metaData": {
+    "name": "snakesAndLadders",
+    "params": [
+     {
+      "name": "board",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]",
+    "[[-1,-1],[-1,3]]"
+   ],
+   "templateSha1": {
+    "py": "84d2ca912a7d1d5d1c8550c362b5d4bab77d2d0e",
+    "cpp": "afcc21067fcfe808d1930d761a01f9fb203c5092",
+    "ts": "a93a5c549f3ea4beb1e613c52912183d991bfd53"
+   }
+  },
+  {
+   "order": 96,
+   "id": "433",
+   "title": "Minimum Genetic Mutation",
+   "slug": "minimum-genetic-mutation",
+   "difficulty": "Medium",
+   "group": "Graph BFS",
+   "dir": "top150/13-graph-bfs/0433-minimum-genetic-mutation",
+   "metaData": {
+    "name": "minMutation",
+    "params": [
+     {
+      "name": "startGene",
+      "type": "string"
+     },
+     {
+      "name": "endGene",
+      "type": "string"
+     },
+     {
+      "name": "bank",
+      "type": "string[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"AACCGGTT\"\n\"AACCGGTA\"\n[\"AACCGGTA\"]",
+    "\"AACCGGTT\"\n\"AAACGGTA\"\n[\"AACCGGTA\",\"AACCGCTA\",\"AAACGGTA\"]"
+   ],
+   "templateSha1": {
+    "py": "dc254ad831d88cfe34d747d710387c8bd0567c71",
+    "cpp": "9bbdf1d39069726319481253cda68ab5e536d71a",
+    "ts": "47b890a1a06bb75f23d51416fdb6355f53de510a"
+   }
+  },
+  {
+   "order": 97,
+   "id": "127",
+   "title": "Word Ladder",
+   "slug": "word-ladder",
+   "difficulty": "Hard",
+   "group": "Graph BFS",
+   "dir": "top150/13-graph-bfs/0127-word-ladder",
+   "metaData": {
+    "name": "ladderLength",
+    "params": [
+     {
+      "name": "beginWord",
+      "type": "string"
+     },
+     {
+      "name": "endWord",
+      "type": "string"
+     },
+     {
+      "name": "wordList",
+      "type": "list<string>"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+    "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]"
+   ],
+   "templateSha1": {
+    "py": "2964fe53ad87dfd9557ec02fedb1ef79602c3dac",
+    "cpp": "295d76e8c5a8da4e7cebf31ce6891a7444abeb5d",
+    "ts": "3f5c6e96836b51a872b8a4bf30dbb8f10a0c5e6e"
+   }
+  },
+  {
+   "order": 98,
+   "id": "208",
+   "title": "Implement Trie (Prefix Tree)",
+   "slug": "implement-trie-prefix-tree",
+   "difficulty": "Medium",
+   "group": "Trie",
+   "dir": "top150/14-trie/0208-implement-trie-prefix-tree",
+   "metaData": {
+    "classname": "Trie",
+    "constructor": {
+     "params": []
+    },
+    "methods": [
+     {
+      "params": [
+       {
+        "type": "string",
+        "name": "word"
+       }
+      ],
+      "name": "insert",
+      "return": {
+       "type": "void"
+      }
+     },
+     {
+      "params": [
+       {
+        "type": "string",
+        "name": "word"
+       }
+      ],
+      "name": "search",
+      "return": {
+       "type": "boolean"
+      }
+     },
+     {
+      "params": [
+       {
+        "type": "string",
+        "name": "prefix"
+       }
+      ],
+      "name": "startsWith",
+      "return": {
+       "type": "boolean"
+      }
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    },
+    "systemdesign": true
+   },
+   "exampleTestcases": [
+    "[\"Trie\",\"insert\",\"search\",\"search\",\"startsWith\",\"insert\",\"search\"]\n[[],[\"apple\"],[\"apple\"],[\"app\"],[\"app\"],[\"app\"],[\"app\"]]"
+   ],
+   "templateSha1": {
+    "py": "c6c98a6e1b90982aa3ea10e048f676eccadfef7a",
+    "cpp": "cdbcc814669c9e52fc1bc8fad0198554bcd9dd2b",
+    "ts": "a22ee532142b6cbd97e73925685d4fa6c732cfd9"
+   }
+  },
+  {
+   "order": 99,
+   "id": "211",
+   "title": "Design Add and Search Words Data Structure",
+   "slug": "design-add-and-search-words-data-structure",
+   "difficulty": "Medium",
+   "group": "Trie",
+   "dir": "top150/14-trie/0211-design-add-and-search-words-data-structure",
+   "metaData": {
+    "classname": "WordDictionary",
+    "constructor": {
+     "params": []
+    },
+    "methods": [
+     {
+      "params": [
+       {
+        "type": "string",
+        "name": "word"
+       }
+      ],
+      "name": "addWord",
+      "return": {
+       "type": "void"
+      }
+     },
+     {
+      "params": [
+       {
+        "type": "string",
+        "name": "word"
+       }
+      ],
+      "name": "search",
+      "return": {
+       "type": "boolean"
+      }
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    },
+    "systemdesign": true
+   },
+   "exampleTestcases": [
+    "[\"WordDictionary\",\"addWord\",\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"]\n[[],[\"bad\"],[\"dad\"],[\"mad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]"
+   ],
+   "templateSha1": {
+    "py": "a0de373a63e19b403cfb34766e509c0cbe90e747",
+    "cpp": "96949c8f9cbbf405f2ff4dbd1b8471f2a74ad4e4",
+    "ts": "9b50cdabda1c5d05574770f2c0108337449d660f"
+   }
+  },
+  {
+   "order": 100,
+   "id": "212",
+   "title": "Word Search II",
+   "slug": "word-search-ii",
+   "difficulty": "Hard",
+   "group": "Trie",
+   "dir": "top150/14-trie/0212-word-search-ii",
+   "metaData": {
+    "name": "findWords",
+    "params": [
+     {
+      "name": "board",
+      "type": "character[][]"
+     },
+     {
+      "name": "words",
+      "type": "string[]"
+     }
+    ],
+    "return": {
+     "type": "list<string>"
+    }
+   },
+   "exampleTestcases": [
+    "[[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]]\n[\"oath\",\"pea\",\"eat\",\"rain\"]",
+    "[[\"a\",\"b\"],[\"c\",\"d\"]]\n[\"abcb\"]"
+   ],
+   "templateSha1": {
+    "py": "11d8475215819f3f3b4f6b8bfcd70de5479ccd49",
+    "cpp": "2bc18545053a1940996c03efa213429056ffe00f",
+    "ts": "724bae102a34627658b3202831ed5ceba383fc23"
+   }
+  },
+  {
+   "order": 101,
+   "id": "17",
+   "title": "Letter Combinations of a Phone Number",
+   "slug": "letter-combinations-of-a-phone-number",
+   "difficulty": "Medium",
+   "group": "Backtracking",
+   "dir": "top150/15-backtracking/0017-letter-combinations-of-a-phone-number",
+   "metaData": {
+    "name": "letterCombinations",
+    "params": [
+     {
+      "name": "digits",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "list<string>"
+    }
+   },
+   "exampleTestcases": [
+    "\"23\"",
+    "\"2\""
+   ],
+   "templateSha1": {
+    "py": "b5297c0628a33b79624035796815335fa42f6834",
+    "cpp": "b4876efce36c0b37e53aee7bbd3d0c873b947b1f",
+    "ts": "d51c07930d49995d5269cb0c312248ed8ba8e685"
+   }
+  },
+  {
+   "order": 102,
+   "id": "77",
+   "title": "Combinations",
+   "slug": "combinations",
+   "difficulty": "Medium",
+   "group": "Backtracking",
+   "dir": "top150/15-backtracking/0077-combinations",
+   "metaData": {
+    "name": "combine",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "4\n2",
+    "1\n1"
+   ],
+   "templateSha1": {
+    "py": "f4e21ab81671cb582658ce03aded971b02096fd3",
+    "cpp": "b444975515498ba65b11b35c2a88cc80b4119604",
+    "ts": "8e1b59825bb29e6aeb965a42ab7e8359f507d778"
+   }
+  },
+  {
+   "order": 103,
+   "id": "46",
+   "title": "Permutations",
+   "slug": "permutations",
+   "difficulty": "Medium",
+   "group": "Backtracking",
+   "dir": "top150/15-backtracking/0046-permutations",
+   "metaData": {
+    "name": "permute",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>",
+     "colsize": "size_1",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3]",
+    "[0,1]",
+    "[1]"
+   ],
+   "templateSha1": {
+    "py": "26dca43c8cdcbe76d4b3b41203cff74b79e34caa",
+    "cpp": "3da7d072fd6fe0ca06bb84a1e53b8273774fa74b",
+    "ts": "b2511f717ac29f7abd43f745b9b6903ad2b297bb"
+   }
+  },
+  {
+   "order": 104,
+   "id": "39",
+   "title": "Combination Sum",
+   "slug": "combination-sum",
+   "difficulty": "Medium",
+   "group": "Backtracking",
+   "dir": "top150/15-backtracking/0039-combination-sum",
+   "metaData": {
+    "name": "combinationSum",
+    "params": [
+     {
+      "name": "candidates",
+      "type": "integer[]"
+     },
+     {
+      "name": "target",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[2,3,6,7]\n7",
+    "[2,3,5]\n8",
+    "[2]\n1"
+   ],
+   "templateSha1": {
+    "py": "c0f7566dc5c4125bfe1f62e003562f9516f3f83a",
+    "cpp": "2a51286d06ebd45baf54d55518ab49657d0b1426",
+    "ts": "b9183a46b22b6d4eefcf361a707b475c0800930a"
+   }
+  },
+  {
+   "order": 105,
+   "id": "52",
+   "title": "N-Queens II",
+   "slug": "n-queens-ii",
+   "difficulty": "Hard",
+   "group": "Backtracking",
+   "dir": "top150/15-backtracking/0052-n-queens-ii",
+   "metaData": {
+    "name": "totalNQueens",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "4",
+    "1"
+   ],
+   "templateSha1": {
+    "py": "3e9f4689744a1008d57c1a65e2ec7f3c4f2d995c",
+    "cpp": "2aca8da8128d41e4855918747bbcc3089f59462e",
+    "ts": "3c8f57b67b60996127fea502bba67221d7c4cb53"
+   }
+  },
+  {
+   "order": 106,
+   "id": "22",
+   "title": "Generate Parentheses",
+   "slug": "generate-parentheses",
+   "difficulty": "Medium",
+   "group": "Backtracking",
+   "dir": "top150/15-backtracking/0022-generate-parentheses",
+   "metaData": {
+    "name": "generateParenthesis",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "list<string>"
+    }
+   },
+   "exampleTestcases": [
+    "3",
+    "1"
+   ],
+   "templateSha1": {
+    "py": "b2df256c59618d1c620ba8bad5f365216a26c19c",
+    "cpp": "438d62834d303437d257fd5df9c071aebbfba982",
+    "ts": "37043be6f454c3c230726f31bb5921b1294660da"
+   }
+  },
+  {
+   "order": 107,
+   "id": "79",
+   "title": "Word Search",
+   "slug": "word-search",
+   "difficulty": "Medium",
+   "group": "Backtracking",
+   "dir": "top150/15-backtracking/0079-word-search",
+   "metaData": {
+    "name": "exist",
+    "params": [
+     {
+      "name": "board",
+      "type": "character[][]"
+     },
+     {
+      "name": "word",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]\n\"ABCCED\"",
+    "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]\n\"SEE\"",
+    "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]\n\"ABCB\""
+   ],
+   "templateSha1": {
+    "py": "e3136520e734a8d86ec601d9d7e02c437a672505",
+    "cpp": "266147b978dba8803a9a4e428eaa494f585fc9ab",
+    "ts": "0f89cb9df22e94b5e35447616cc0a1391ea0b7ec"
+   }
+  },
+  {
+   "order": 108,
+   "id": "108",
+   "title": "Convert Sorted Array to Binary Search Tree",
+   "slug": "convert-sorted-array-to-binary-search-tree",
+   "difficulty": "Easy",
+   "group": "Divide & Conquer",
+   "dir": "top150/16-divide-conquer/0108-convert-sorted-array-to-binary-search-tree",
+   "metaData": {
+    "name": "sortedArrayToBST",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "TreeNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[-10,-3,0,5,9]",
+    "[1,3]"
+   ],
+   "templateSha1": {
+    "py": "a55709e6958de0d9b6ace48f27d7c40137b9ca6a",
+    "cpp": "1bf5d22fdf7745d894cba9ace7d8c821b594f078",
+    "ts": "4a822bd929d56e78c801bf26a612e667b3175180"
+   }
+  },
+  {
+   "order": 109,
+   "id": "148",
+   "title": "Sort List",
+   "slug": "sort-list",
+   "difficulty": "Medium",
+   "group": "Divide & Conquer",
+   "dir": "top150/16-divide-conquer/0148-sort-list",
+   "metaData": {
+    "name": "sortList",
+    "params": [
+     {
+      "name": "head",
+      "type": "ListNode",
+      "dealloc": false
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[4,2,1,3]",
+    "[-1,5,3,4,0]",
+    "[]"
+   ],
+   "templateSha1": {
+    "py": "88359c0a570db8f761468e7b811eea9a72e55e67",
+    "cpp": "87b236c3db064d25be914be224c0a5a152c44729",
+    "ts": "22698486f1922110b29b41591229f260b404288e"
+   }
+  },
+  {
+   "order": 110,
+   "id": "427",
+   "title": "Construct Quad Tree",
+   "slug": "construct-quad-tree",
+   "difficulty": "Medium",
+   "group": "Divide & Conquer",
+   "dir": "top150/16-divide-conquer/0427-construct-quad-tree",
+   "metaData": {
+    "name": "construct",
+    "params": [
+     {
+      "name": "grid",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>"
+    },
+    "languages": [
+     "cpp",
+     "java",
+     "python",
+     "csharp",
+     "javascript",
+     "python3",
+     "kotlin",
+     "ruby",
+     "scala",
+     "swift",
+     "golang",
+     "php",
+     "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: boolean\n    isLeaf: boolean\n    topLeft: _Node | null\n\ttopRight: _Node | null\n\tbottomLeft: _Node | null\n\tbottomRight: _Node | null\n\tconstructor(val?: boolean, isLeaf?: boolean, topLeft?: _Node, topRight?: _Node, bottomLeft?: _Node, bottomRight?: _Node) {\n        this.val = (val===undefined ? false : val)\n        this.isLeaf = (isLeaf===undefined ? false : isLeaf)\n        this.topLeft = (topLeft===undefined ? null : topLeft)\n        this.topRight = (topRight===undefined ? null : topRight)\n        this.bottomLeft = (bottomLeft===undefined ? null : bottomLeft)\n        this.bottomRight = (bottomRight===undefined ? null : bottomRight)\n  }\n}\n"
+   },
+   "exampleTestcases": [
+    "[[0,1],[1,0]]",
+    "[[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0]]"
+   ],
+   "templateSha1": {
+    "py": "bec58fb41c5074fde872c45d60fb2f1540080a5b",
+    "cpp": "23117928dd7e85501572bb151aa5dc43693b3a6d",
+    "ts": "0357be9539d1d2a2fc0e9bb3043642eefca5cf0f"
+   }
+  },
+  {
+   "order": 111,
+   "id": "23",
+   "title": "Merge k Sorted Lists",
+   "slug": "merge-k-sorted-lists",
+   "difficulty": "Hard",
+   "group": "Divide & Conquer",
+   "dir": "top150/16-divide-conquer/0023-merge-k-sorted-lists",
+   "metaData": {
+    "name": "mergeKLists",
+    "params": [
+     {
+      "name": "lists",
+      "type": "ListNode[]",
+      "dealloc": false
+     }
+    ],
+    "return": {
+     "type": "ListNode",
+     "dealloc": true
+    }
+   },
+   "exampleTestcases": [
+    "[[1,4,5],[1,3,4],[2,6]]",
+    "[]",
+    "[[]]"
+   ],
+   "templateSha1": {
+    "py": "f346fb08c50f2b67891d33bf38468a0a4d90e968",
+    "cpp": "d61aee4cb1ca3330f9e0e6734247d0d90a156df0",
+    "ts": "2fc28cf7e9ea105efecb6cb02f7fa5553bb9620b"
+   }
+  },
+  {
+   "order": 112,
+   "id": "53",
+   "title": "Maximum Subarray",
+   "slug": "maximum-subarray",
+   "difficulty": "Medium",
+   "group": "Kadane's Algorithm",
+   "dir": "top150/17-kadane-s-algorithm/0053-maximum-subarray",
+   "metaData": {
+    "name": "maxSubArray",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[-2,1,-3,4,-1,2,1,-5,4]",
+    "[1]",
+    "[5,4,-1,7,8]"
+   ],
+   "templateSha1": {
+    "py": "7479053cded5bab6ff3c94b5b0aef657178a92b4",
+    "cpp": "7e90de0eddc54815e136f05a713493cc066f3d01",
+    "ts": "20ea824d75d5e5a80b5468cc75bc2c2f9473dcf4"
+   }
+  },
+  {
+   "order": 113,
+   "id": "918",
+   "title": "Maximum Sum Circular Subarray",
+   "slug": "maximum-sum-circular-subarray",
+   "difficulty": "Medium",
+   "group": "Kadane's Algorithm",
+   "dir": "top150/17-kadane-s-algorithm/0918-maximum-sum-circular-subarray",
+   "metaData": {
+    "name": "maxSubarraySumCircular",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,-2,3,-2]",
+    "[5,-3,5]",
+    "[-3,-2,-3]"
+   ],
+   "templateSha1": {
+    "py": "849e0ec88cbb89b81f4b665e13a4e5e1fdf6bcef",
+    "cpp": "28a0a50abb927f5dafaf583ba4446c9e2e567326",
+    "ts": "1f318d30bf0c9a69840771f890a78b4792c6db0b"
+   }
+  },
+  {
+   "order": 114,
+   "id": "35",
+   "title": "Search Insert Position",
+   "slug": "search-insert-position",
+   "difficulty": "Easy",
+   "group": "Binary Search",
+   "dir": "top150/18-binary-search/0035-search-insert-position",
+   "metaData": {
+    "name": "searchInsert",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "target",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,3,5,6]\n5",
+    "[1,3,5,6]\n2",
+    "[1,3,5,6]\n7"
+   ],
+   "templateSha1": {
+    "py": "b71b87249725ca3338ce5db9d7007d725274cfa0",
+    "cpp": "bccb303f0478cbfe3fcf33ff5cf3017adb66d097",
+    "ts": "c5cd951e9072e213395fe90cce6bde6918627006"
+   }
+  },
+  {
+   "order": 115,
+   "id": "74",
+   "title": "Search a 2D Matrix",
+   "slug": "search-a-2d-matrix",
+   "difficulty": "Medium",
+   "group": "Binary Search",
+   "dir": "top150/18-binary-search/0074-search-a-2d-matrix",
+   "metaData": {
+    "name": "searchMatrix",
+    "params": [
+     {
+      "name": "matrix",
+      "type": "integer[][]"
+     },
+     {
+      "name": "target",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "[[1,3,5,7],[10,11,16,20],[23,30,34,60]]\n3",
+    "[[1,3,5,7],[10,11,16,20],[23,30,34,60]]\n13"
+   ],
+   "templateSha1": {
+    "py": "58b81f9dd17672cda5541f603a74e55c3db42098",
+    "cpp": "8bfa384a14e4f0329560adb945a4087495fcf46d",
+    "ts": "2259a0bf55cbda9f55316358620796d4fbce412f"
+   }
+  },
+  {
+   "order": 116,
+   "id": "162",
+   "title": "Find Peak Element",
+   "slug": "find-peak-element",
+   "difficulty": "Medium",
+   "group": "Binary Search",
+   "dir": "top150/18-binary-search/0162-find-peak-element",
+   "metaData": {
+    "name": "findPeakElement",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,1]",
+    "[1,2,1,3,5,6,4]"
+   ],
+   "templateSha1": {
+    "py": "f1ca93c88d479c4e5dd1fec59403068192adade4",
+    "cpp": "554561730f540197b87cc78559c6c6c3294c22ae",
+    "ts": "f900706728110a169ade295a6e39f2d147e88432"
+   }
+  },
+  {
+   "order": 117,
+   "id": "33",
+   "title": "Search in Rotated Sorted Array",
+   "slug": "search-in-rotated-sorted-array",
+   "difficulty": "Medium",
+   "group": "Binary Search",
+   "dir": "top150/18-binary-search/0033-search-in-rotated-sorted-array",
+   "metaData": {
+    "name": "search",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "target",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[4,5,6,7,0,1,2]\n0",
+    "[4,5,6,7,0,1,2]\n3",
+    "[1]\n0"
+   ],
+   "templateSha1": {
+    "py": "68e4d556c5575230d825e7156ca88d0bd3f72886",
+    "cpp": "2024676359b3eb810c2583048a662987b6866e2a",
+    "ts": "4707e3a33ceacfd9fea6fc15479cdacf409ada71"
+   }
+  },
+  {
+   "order": 118,
+   "id": "34",
+   "title": "Find First and Last Position of Element in Sorted Array",
+   "slug": "find-first-and-last-position-of-element-in-sorted-array",
+   "difficulty": "Medium",
+   "group": "Binary Search",
+   "dir": "top150/18-binary-search/0034-find-first-and-last-position-of-element-in-sorted-array",
+   "metaData": {
+    "name": "searchRange",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "target",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer[]"
+    }
+   },
+   "exampleTestcases": [
+    "[5,7,7,8,8,10]\n8",
+    "[5,7,7,8,8,10]\n6",
+    "[]\n0"
+   ],
+   "templateSha1": {
+    "py": "1d0e530157fe66d1dc65bb55bd038bb0d7775649",
+    "cpp": "70b2b1dda62191003fcee1f2a60c2135019fe9d8",
+    "ts": "ee209ee1c750ff9456a39e659e43c12217b33483"
+   }
+  },
+  {
+   "order": 119,
+   "id": "153",
+   "title": "Find Minimum in Rotated Sorted Array",
+   "slug": "find-minimum-in-rotated-sorted-array",
+   "difficulty": "Medium",
+   "group": "Binary Search",
+   "dir": "top150/18-binary-search/0153-find-minimum-in-rotated-sorted-array",
+   "metaData": {
+    "name": "findMin",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[3,4,5,1,2]",
+    "[4,5,6,7,0,1,2]",
+    "[11,13,15,17]"
+   ],
+   "templateSha1": {
+    "py": "5473830c329cf0aa02d7b0810fe5152a0cfaf02d",
+    "cpp": "c8482d955688010efb62a9d2a706bd22161df030",
+    "ts": "0241f4b97fea39b87a27280da9b2a3a808929288"
+   }
+  },
+  {
+   "order": 120,
+   "id": "4",
+   "title": "Median of Two Sorted Arrays",
+   "slug": "median-of-two-sorted-arrays",
+   "difficulty": "Hard",
+   "group": "Binary Search",
+   "dir": "top150/18-binary-search/0004-median-of-two-sorted-arrays",
+   "metaData": {
+    "name": "findMedianSortedArrays",
+    "params": [
+     {
+      "name": "nums1",
+      "type": "integer[]"
+     },
+     {
+      "name": "nums2",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "double"
+    }
+   },
+   "exampleTestcases": [
+    "[1,3]\n[2]",
+    "[1,2]\n[3,4]"
+   ],
+   "templateSha1": {
+    "py": "8b4394160dbe12fb314dcc0cb5d3c79a90dbbd24",
+    "cpp": "e9cfd92bd5917874c5cf738963c83426af795013",
+    "ts": "a64d73ae9063d4293ff1449982034aa0adb1884e"
+   }
+  },
+  {
+   "order": 121,
+   "id": "215",
+   "title": "Kth Largest Element in an Array",
+   "slug": "kth-largest-element-in-an-array",
+   "difficulty": "Medium",
+   "group": "Heap",
+   "dir": "top150/19-heap/0215-kth-largest-element-in-an-array",
+   "metaData": {
+    "name": "findKthLargest",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[3,2,1,5,6,4]\n2",
+    "[3,2,3,1,2,4,5,5,6]\n4"
+   ],
+   "templateSha1": {
+    "py": "5e246ac1340e1f1c87b59384060bb5f781b0dc39",
+    "cpp": "d14885c7d55afed270873209ab9bba17661e281d",
+    "ts": "d69210ee98aaf4b001bb81a712c34efaa638b1ad"
+   }
+  },
+  {
+   "order": 122,
+   "id": "502",
+   "title": "IPO",
+   "slug": "ipo",
+   "difficulty": "Hard",
+   "group": "Heap",
+   "dir": "top150/19-heap/0502-ipo",
+   "metaData": {
+    "name": "findMaximizedCapital",
+    "params": [
+     {
+      "name": "k",
+      "type": "integer"
+     },
+     {
+      "name": "w",
+      "type": "integer"
+     },
+     {
+      "name": "profits",
+      "type": "integer[]"
+     },
+     {
+      "name": "capital",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "2\n0\n[1,2,3]\n[0,1,1]",
+    "3\n0\n[1,2,3]\n[0,1,2]"
+   ],
+   "templateSha1": {
+    "py": "134882e68009e3a8e9fd04b9a159b407cfa4144e",
+    "cpp": "456c7137917e42141bb7e336376b71ab69b2887b",
+    "ts": "0335f3da260097526a5ad226168efdff45446673"
+   }
+  },
+  {
+   "order": 123,
+   "id": "373",
+   "title": "Find K Pairs with Smallest Sums",
+   "slug": "find-k-pairs-with-smallest-sums",
+   "difficulty": "Medium",
+   "group": "Heap",
+   "dir": "top150/19-heap/0373-find-k-pairs-with-smallest-sums",
+   "metaData": {
+    "name": "kSmallestPairs",
+    "params": [
+     {
+      "name": "nums1",
+      "type": "integer[]"
+     },
+     {
+      "name": "nums2",
+      "type": "integer[]"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "list<list<integer>>"
+    },
+    "manual": false
+   },
+   "exampleTestcases": [
+    "[1,7,11]\n[2,4,6]\n3",
+    "[1,1,2]\n[1,2,3]\n2"
+   ],
+   "templateSha1": {
+    "py": "d561354842a97ae88be6a5d765efaa45c4825bcb",
+    "cpp": "bbb8ff04c11b1eb8f2e9c0d919cdd45f7476b8ac",
+    "ts": "6a4c9560cb71863c5629a8a0e160aa3c5a8dd561"
+   }
+  },
+  {
+   "order": 124,
+   "id": "295",
+   "title": "Find Median from Data Stream",
+   "slug": "find-median-from-data-stream",
+   "difficulty": "Hard",
+   "group": "Heap",
+   "dir": "top150/19-heap/0295-find-median-from-data-stream",
+   "metaData": {
+    "classname": "MedianFinder",
+    "constructor": {
+     "params": []
+    },
+    "methods": [
+     {
+      "params": [
+       {
+        "type": "integer",
+        "name": "num"
+       }
+      ],
+      "name": "addNum",
+      "return": {
+       "type": "void"
+      }
+     },
+     {
+      "params": [],
+      "name": "findMedian",
+      "return": {
+       "type": "double"
+      }
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    },
+    "systemdesign": true
+   },
+   "exampleTestcases": [
+    "[\"MedianFinder\",\"addNum\",\"addNum\",\"findMedian\",\"addNum\",\"findMedian\"]\n[[],[1],[2],[],[3],[]]"
+   ],
+   "templateSha1": {
+    "py": "05f727ce328cfa8e11443e53b0274bed43fd54da",
+    "cpp": "59d6755900d0685f7f19a27c1c51f506ba5cde33",
+    "ts": "719db986dcc8bed293fb620177509a79669f80be"
+   }
+  },
+  {
+   "order": 125,
+   "id": "67",
+   "title": "Add Binary",
+   "slug": "add-binary",
+   "difficulty": "Easy",
+   "group": "Bit Manipulation",
+   "dir": "top150/20-bit-manipulation/0067-add-binary",
+   "metaData": {
+    "name": "addBinary",
+    "params": [
+     {
+      "name": "a",
+      "type": "string"
+     },
+     {
+      "name": "b",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "\"11\"\n\"1\"",
+    "\"1010\"\n\"1011\""
+   ],
+   "templateSha1": {
+    "py": "ede846282b2168476c1f7bfad8e9c03fb4b85640",
+    "cpp": "d23abb85fe625d1f715cf169a2c81cb6ae0cef9a",
+    "ts": "430b46c6d3804b01e21a6588b1c0e63fc04c594b"
+   }
+  },
+  {
+   "order": 126,
+   "id": "190",
+   "title": "Reverse Bits",
+   "slug": "reverse-bits",
+   "difficulty": "Easy",
+   "group": "Bit Manipulation",
+   "dir": "top150/20-bit-manipulation/0190-reverse-bits",
+   "metaData": {
+    "name": "reverseBits",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    },
+    "manual": false
+   },
+   "exampleTestcases": [
+    "43261596",
+    "2147483644"
+   ],
+   "templateSha1": {
+    "py": "246f0ca62d210f15dc0332f39ebf10f908659e13",
+    "cpp": "8e4fe233d708dc643453d56ae25cae751232e392",
+    "ts": "44c1e6e9d981cb991d868c3672d5793506d41c7b"
+   }
+  },
+  {
+   "order": 127,
+   "id": "191",
+   "title": "Number of 1 Bits",
+   "slug": "number-of-1-bits",
+   "difficulty": "Easy",
+   "group": "Bit Manipulation",
+   "dir": "top150/20-bit-manipulation/0191-number-of-1-bits",
+   "metaData": {
+    "name": "hammingWeight",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    },
+    "manual": false
+   },
+   "exampleTestcases": [
+    "11",
+    "128",
+    "2147483645"
+   ],
+   "templateSha1": {
+    "py": "7a29a89f13832353e7cef67db67c60e1ed6ac79e",
+    "cpp": "e9d49c164580ba91708b0c70102424a474f12c52",
+    "ts": "e54e8e880784131f7150cca56c4a01604d91bc57"
+   }
+  },
+  {
+   "order": 128,
+   "id": "136",
+   "title": "Single Number",
+   "slug": "single-number",
+   "difficulty": "Easy",
+   "group": "Bit Manipulation",
+   "dir": "top150/20-bit-manipulation/0136-single-number",
+   "metaData": {
+    "name": "singleNumber",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[2,2,1]",
+    "[4,1,2,1,2]",
+    "[1]"
+   ],
+   "templateSha1": {
+    "py": "a38ca5d7799004fdcd52fcfcc2aa125720e3af74",
+    "cpp": "66f56c91039e6447b2041ce883146e81fe3b2114",
+    "ts": "c2c64ed60f02d9c61f7dfa3f515b15b99839433b"
+   }
+  },
+  {
+   "order": 129,
+   "id": "137",
+   "title": "Single Number II",
+   "slug": "single-number-ii",
+   "difficulty": "Medium",
+   "group": "Bit Manipulation",
+   "dir": "top150/20-bit-manipulation/0137-single-number-ii",
+   "metaData": {
+    "name": "singleNumber",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[2,2,3,2]",
+    "[0,1,0,1,0,1,99]"
+   ],
+   "templateSha1": {
+    "py": "b943f16dba108afeb47e45e09303d36e5382dc22",
+    "cpp": "e360b2b099b78e7eec049a0b22eb89f2ff1f2917",
+    "ts": "675366b0d5a9e8c09971bdcbdcd343e80a9a0a41"
+   }
+  },
+  {
+   "order": 130,
+   "id": "201",
+   "title": "Bitwise AND of Numbers Range",
+   "slug": "bitwise-and-of-numbers-range",
+   "difficulty": "Medium",
+   "group": "Bit Manipulation",
+   "dir": "top150/20-bit-manipulation/0201-bitwise-and-of-numbers-range",
+   "metaData": {
+    "name": "rangeBitwiseAnd",
+    "params": [
+     {
+      "name": "left",
+      "type": "integer"
+     },
+     {
+      "name": "right",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "5\n7",
+    "0\n0",
+    "1\n2147483647"
+   ],
+   "templateSha1": {
+    "py": "6f1c6fd6af11fc3b01cbd3375d8806b4246e6a2b",
+    "cpp": "9272e0f90606c8a0385dc39dbec6ed8b5dab797e",
+    "ts": "be8dc1f64684e802c936749b1a28ad28731532d8"
+   }
+  },
+  {
+   "order": 131,
+   "id": "9",
+   "title": "Palindrome Number",
+   "slug": "palindrome-number",
+   "difficulty": "Easy",
+   "group": "Math",
+   "dir": "top150/21-math/0009-palindrome-number",
+   "metaData": {
+    "name": "isPalindrome",
+    "params": [
+     {
+      "name": "x",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "121",
+    "-121",
+    "10"
+   ],
+   "templateSha1": {
+    "py": "73cd5f1f0a053d2acf7f29f072a2eb04242ce3a8",
+    "cpp": "772aa7af1822aefa02ebca0880380b30a1e8b55e",
+    "ts": "8a33a3b7044aa291cb3b99fad9fa1f72b77f47f7"
+   }
+  },
+  {
+   "order": 132,
+   "id": "66",
+   "title": "Plus One",
+   "slug": "plus-one",
+   "difficulty": "Easy",
+   "group": "Math",
+   "dir": "top150/21-math/0066-plus-one",
+   "metaData": {
+    "name": "plusOne",
+    "params": [
+     {
+      "name": "digits",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer[]"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3]",
+    "[4,3,2,1]",
+    "[9]"
+   ],
+   "templateSha1": {
+    "py": "a541fe56c0e3ab275901e70ff98d5c48bef6214c",
+    "cpp": "3cefdd49537948ee5b82bc301334ebfd6d7a50b2",
+    "ts": "ddb88af898d7b2f35fe80772a019d295a225bfa4"
+   }
+  },
+  {
+   "order": 133,
+   "id": "172",
+   "title": "Factorial Trailing Zeroes",
+   "slug": "factorial-trailing-zeroes",
+   "difficulty": "Medium",
+   "group": "Math",
+   "dir": "top150/21-math/0172-factorial-trailing-zeroes",
+   "metaData": {
+    "name": "trailingZeroes",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "3",
+    "5",
+    "0"
+   ],
+   "templateSha1": {
+    "py": "ae8263374b64271f61b17c3ab5f3aac3ac7c65d6",
+    "cpp": "26e1d1e7441025ce17e36d03fa4c3622ffa4b991",
+    "ts": "db5cc690bae14a2e66cfa2fe7a693b27a0401737"
+   }
+  },
+  {
+   "order": 134,
+   "id": "69",
+   "title": "Sqrt(x)",
+   "slug": "sqrtx",
+   "difficulty": "Easy",
+   "group": "Math",
+   "dir": "top150/21-math/0069-sqrtx",
+   "metaData": {
+    "name": "mySqrt",
+    "params": [
+     {
+      "name": "x",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "4",
+    "8"
+   ],
+   "templateSha1": {
+    "py": "316acedfad4e25a6a37b9d5771a93a8eb9a8f816",
+    "cpp": "ed3676def55e668046a3a3d43efd9f47d99080b2",
+    "ts": "c9b288b076084c2cafa7e38b815942a82937bc4e"
+   }
+  },
+  {
+   "order": 135,
+   "id": "50",
+   "title": "Pow(x, n)",
+   "slug": "powx-n",
+   "difficulty": "Medium",
+   "group": "Math",
+   "dir": "top150/21-math/0050-powx-n",
+   "metaData": {
+    "name": "myPow",
+    "params": [
+     {
+      "name": "x",
+      "type": "double"
+     },
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "double"
+    }
+   },
+   "exampleTestcases": [
+    "2.00000\n10",
+    "2.10000\n3",
+    "2.00000\n-2"
+   ],
+   "templateSha1": {
+    "py": "e9a7fb45e4318dd963b24e8030a64aeb00b74c63",
+    "cpp": "0e978605b9f60454f7f2de4050490232e2cbc725",
+    "ts": "bde9e0d7199b264f45d9a185bb092b3c70cd03e4"
+   }
+  },
+  {
+   "order": 136,
+   "id": "149",
+   "title": "Max Points on a Line",
+   "slug": "max-points-on-a-line",
+   "difficulty": "Hard",
+   "group": "Math",
+   "dir": "top150/21-math/0149-max-points-on-a-line",
+   "metaData": {
+    "name": "maxPoints",
+    "params": [
+     {
+      "name": "points",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[[1,1],[2,2],[3,3]]",
+    "[[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]]"
+   ],
+   "templateSha1": {
+    "py": "1d364afc0fc0bb057c18e2749a1e3e823a6467f1",
+    "cpp": "45e44c1b7362b509bbbe8f8125858a39ff4b7079",
+    "ts": "7dd55c02b5688d6b9803ba9eb943484f4c7a6390"
+   }
+  },
+  {
+   "order": 137,
+   "id": "70",
+   "title": "Climbing Stairs",
+   "slug": "climbing-stairs",
+   "difficulty": "Easy",
+   "group": "1D DP",
+   "dir": "top150/22-1d-dp/0070-climbing-stairs",
+   "metaData": {
+    "name": "climbStairs",
+    "params": [
+     {
+      "name": "n",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "2",
+    "3"
+   ],
+   "templateSha1": {
+    "py": "fd89ae393e55cdb89de6fd817d393735e671aa43",
+    "cpp": "5099c3479b53211f72087160059832ee33dbea95",
+    "ts": "af53f5c254e0a9d327c890accb9b7be1a7b2c20b"
+   }
+  },
+  {
+   "order": 138,
+   "id": "198",
+   "title": "House Robber",
+   "slug": "house-robber",
+   "difficulty": "Medium",
+   "group": "1D DP",
+   "dir": "top150/22-1d-dp/0198-house-robber",
+   "metaData": {
+    "name": "rob",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,3,1]",
+    "[2,7,9,3,1]"
+   ],
+   "templateSha1": {
+    "py": "502651ee6332dfd1242d9bce7def6f332a85b520",
+    "cpp": "7c5c607472c2d34a54d0fcd918a73ed6ea92479b",
+    "ts": "b5b1686cf7c8aa50bbab0d79b1c9e1e469c49115"
+   }
+  },
+  {
+   "order": 139,
+   "id": "139",
+   "title": "Word Break",
+   "slug": "word-break",
+   "difficulty": "Medium",
+   "group": "1D DP",
+   "dir": "top150/22-1d-dp/0139-word-break",
+   "metaData": {
+    "name": "wordBreak",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "wordDict",
+      "type": "list<string>"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"leetcode\"\n[\"leet\",\"code\"]",
+    "\"applepenapple\"\n[\"apple\",\"pen\"]",
+    "\"catsandog\"\n[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]"
+   ],
+   "templateSha1": {
+    "py": "00dae4fb838b1a23b214b4bcccebb6cb9eecf95a",
+    "cpp": "12fb154d995db3fd7bd31e19a0fe0d1f067257da",
+    "ts": "7e3f2114bb798424bed669f16cda5f2d86c18a19"
+   }
+  },
+  {
+   "order": 140,
+   "id": "322",
+   "title": "Coin Change",
+   "slug": "coin-change",
+   "difficulty": "Medium",
+   "group": "1D DP",
+   "dir": "top150/22-1d-dp/0322-coin-change",
+   "metaData": {
+    "name": "coinChange",
+    "params": [
+     {
+      "name": "coins",
+      "type": "integer[]"
+     },
+     {
+      "name": "amount",
+      "type": "integer"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[1,2,5]\n11",
+    "[2]\n3",
+    "[1]\n0"
+   ],
+   "templateSha1": {
+    "py": "44948f274cfe4a41369574cc351fe91e86f5261b",
+    "cpp": "6a82a0e0b9e2511582abd1146778573b2e009563",
+    "ts": "8392d79dcafaf3f62682a418ee80d1d9ac2106f3"
+   }
+  },
+  {
+   "order": 141,
+   "id": "300",
+   "title": "Longest Increasing Subsequence",
+   "slug": "longest-increasing-subsequence",
+   "difficulty": "Medium",
+   "group": "1D DP",
+   "dir": "top150/22-1d-dp/0300-longest-increasing-subsequence",
+   "metaData": {
+    "name": "lengthOfLIS",
+    "params": [
+     {
+      "name": "nums",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[10,9,2,5,3,7,101,18]",
+    "[0,1,0,3,2,3]",
+    "[7,7,7,7,7,7,7]"
+   ],
+   "templateSha1": {
+    "py": "84121a908dd3366c8ccefa23d265bfbaa231eb66",
+    "cpp": "85e3be982510669ba255b92d7dd59192de72c4fa",
+    "ts": "c254f8228eaf79101f3ac8d5eaf289f7a85cd3ab"
+   }
+  },
+  {
+   "order": 142,
+   "id": "120",
+   "title": "Triangle",
+   "slug": "triangle",
+   "difficulty": "Medium",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0120-triangle",
+   "metaData": {
+    "name": "minimumTotal",
+    "params": [
+     {
+      "name": "triangle",
+      "type": "list<list<integer>>"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[[2],[3,4],[6,5,7],[4,1,8,3]]",
+    "[[-10]]"
+   ],
+   "templateSha1": {
+    "py": "b512b586919c3e63706ec9deacba87edc8c7d94f",
+    "cpp": "5bf16b684f9c1a1eaca10b35f4fd58f288ea79c4",
+    "ts": "88c613a114537a7cbc5fb18c4ea6dbad31a602e5"
+   }
+  },
+  {
+   "order": 143,
+   "id": "64",
+   "title": "Minimum Path Sum",
+   "slug": "minimum-path-sum",
+   "difficulty": "Medium",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0064-minimum-path-sum",
+   "metaData": {
+    "name": "minPathSum",
+    "params": [
+     {
+      "name": "grid",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[[1,3,1],[1,5,1],[4,2,1]]",
+    "[[1,2,3],[4,5,6]]"
+   ],
+   "templateSha1": {
+    "py": "28767ebb40869eeb434d5b55b118c95d4dd100b5",
+    "cpp": "839eccdc38e594b67a087e06d22dcafe4982926b",
+    "ts": "54b8e4efd32fe4885e14577845435e08a1b8c296"
+   }
+  },
+  {
+   "order": 144,
+   "id": "63",
+   "title": "Unique Paths II",
+   "slug": "unique-paths-ii",
+   "difficulty": "Medium",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0063-unique-paths-ii",
+   "metaData": {
+    "name": "uniquePathsWithObstacles",
+    "params": [
+     {
+      "name": "obstacleGrid",
+      "type": "integer[][]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[[0,0,0],[0,1,0],[0,0,0]]",
+    "[[0,1],[0,0]]"
+   ],
+   "templateSha1": {
+    "py": "5af6517a833d12548246599d59260ecf80009626",
+    "cpp": "441604d10300df90e1e656d0c6720ce01bf39636",
+    "ts": "e5b02d9f5556b89df4aa78ec67529b8ed5b7b7d6"
+   }
+  },
+  {
+   "order": 145,
+   "id": "5",
+   "title": "Longest Palindromic Substring",
+   "slug": "longest-palindromic-substring",
+   "difficulty": "Medium",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0005-longest-palindromic-substring",
+   "metaData": {
+    "name": "longestPalindrome",
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "string"
+    }
+   },
+   "exampleTestcases": [
+    "\"babad\"",
+    "\"cbbd\""
+   ],
+   "templateSha1": {
+    "py": "7da181746f819ea62433da85d134862d22ddb989",
+    "cpp": "a4d2abddabb5f8a61dd1cf702ef4de12b632fcff",
+    "ts": "6279846789589310b0b089bf6b046b95561058d1"
+   }
+  },
+  {
+   "order": 146,
+   "id": "97",
+   "title": "Interleaving String",
+   "slug": "interleaving-string",
+   "difficulty": "Medium",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0097-interleaving-string",
+   "metaData": {
+    "name": "isInterleave",
+    "params": [
+     {
+      "name": "s1",
+      "type": "string"
+     },
+     {
+      "name": "s2",
+      "type": "string"
+     },
+     {
+      "name": "s3",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "boolean"
+    }
+   },
+   "exampleTestcases": [
+    "\"aabcc\"\n\"dbbca\"\n\"aadbbcbcac\"",
+    "\"aabcc\"\n\"dbbca\"\n\"aadbbbaccc\"",
+    "\"\"\n\"\"\n\"\""
+   ],
+   "templateSha1": {
+    "py": "4dd24f8b7a0247183a9c8fd8fa5b5bf3f9148f7a",
+    "cpp": "38b9376799fa0f45c47643e3d6a2159e1374557c",
+    "ts": "54ce8e827a92210092d02e799be7236a9900dc12"
+   }
+  },
+  {
+   "order": 147,
+   "id": "72",
+   "title": "Edit Distance",
+   "slug": "edit-distance",
+   "difficulty": "Medium",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0072-edit-distance",
+   "metaData": {
+    "name": "minDistance",
+    "params": [
+     {
+      "name": "word1",
+      "type": "string"
+     },
+     {
+      "name": "word2",
+      "type": "string"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "\"horse\"\n\"ros\"",
+    "\"intention\"\n\"execution\""
+   ],
+   "templateSha1": {
+    "py": "6fc9f36977461665be6d5e25a7d28eaf973720db",
+    "cpp": "bbb79363bca1d78ac6443b5fb082e9220957a583",
+    "ts": "ddb3ddd05af0234dec179b9ff3e17a0c8f9c5446"
+   }
+  },
+  {
+   "order": 148,
+   "id": "123",
+   "title": "Best Time to Buy and Sell Stock III",
+   "slug": "best-time-to-buy-and-sell-stock-iii",
+   "difficulty": "Hard",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0123-best-time-to-buy-and-sell-stock-iii",
+   "metaData": {
+    "name": "maxProfit",
+    "params": [
+     {
+      "name": "prices",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[3,3,5,0,0,3,1,4]",
+    "[1,2,3,4,5]",
+    "[7,6,4,3,1]"
+   ],
+   "templateSha1": {
+    "py": "c833fcee813b2ce08e5602d6bafc78d68046fe21",
+    "cpp": "30afd1a9d9bbb3c076684129df9d43f7253879b2",
+    "ts": "859b3be329c3098349ffcf13d4ba8c7b66db5f96"
+   }
+  },
+  {
+   "order": 149,
+   "id": "188",
+   "title": "Best Time to Buy and Sell Stock IV",
+   "slug": "best-time-to-buy-and-sell-stock-iv",
+   "difficulty": "Hard",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0188-best-time-to-buy-and-sell-stock-iv",
+   "metaData": {
+    "name": "maxProfit",
+    "params": [
+     {
+      "name": "k",
+      "type": "integer"
+     },
+     {
+      "name": "prices",
+      "type": "integer[]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "2\n[2,4,1]",
+    "2\n[3,2,6,5,0,3]"
+   ],
+   "templateSha1": {
+    "py": "62cc5de36afc7943f7e924a455c9820f9e5c92df",
+    "cpp": "d6ff4a3fa9f50af038dc2b4ad6cd443753f03b97",
+    "ts": "af102fa5a37d45659b5f0f9e1f31ad1e5e348489"
+   }
+  },
+  {
+   "order": 150,
+   "id": "221",
+   "title": "Maximal Square",
+   "slug": "maximal-square",
+   "difficulty": "Medium",
+   "group": "Multidimensional DP",
+   "dir": "top150/23-multidimensional-dp/0221-maximal-square",
+   "metaData": {
+    "name": "maximalSquare",
+    "params": [
+     {
+      "name": "matrix",
+      "type": "character[][]"
+     }
+    ],
+    "return": {
+     "type": "integer"
+    }
+   },
+   "exampleTestcases": [
+    "[[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]",
+    "[[\"0\",\"1\"],[\"1\",\"0\"]]",
+    "[[\"0\"]]"
+   ],
+   "templateSha1": {
+    "py": "1d8a80367c2690c03b8a69a57daa0a4cccb53973",
+    "cpp": "daa7d7362482b5f8064d7d0aa964262c51378047",
+    "ts": "e418074e980da08f13c9450928e11728e841f2cd"
+   }
+  }
+ ]
+}
