@@ -2,7 +2,7 @@
 
 ## Top Interview 150
 
-Solved **0 / 150** · Python 0 · C++ 0 · TypeScript 0
+Solved **2 / 150** · Python 2 · C++ 0 · TypeScript 1
 
 Solutions live in [`top150/`](top150/). Older solutions are in the repo root.
 
@@ -26,7 +26,7 @@ Solutions live in [`top150/`](top150/). Older solutions are in the repo root.
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium |  |  |  |
 | 135 | [Candy](https://leetcode.com/problems/candy/) | Hard |  |  |  |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard |  |  |  |
-| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy |  |  |  |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [✅](top150/01-array-string/0013-roman-to-integer/solution.py) |  |  |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium |  |  |  |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy |  |  |  |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy |  |  |  |
@@ -68,7 +68,7 @@ Solutions live in [`top150/`](top150/). Older solutions are in the repo root.
 
 | # | Problem | Difficulty | Python | C++ | TypeScript |
 |---:|---|---|:---:|:---:|:---:|
-| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy |  |  |  |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | [✅](top150/05-hashmap/0383-ransom-note/solution.py) |  | [✅](top150/05-hashmap/0383-ransom-note/solution.ts) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy |  |  |  |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy |  |  |  |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy |  |  |  |
