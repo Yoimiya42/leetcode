@@ -2,7 +2,7 @@
 
 ## Top Interview 150
 
-Solved **2 / 150** · Python 2 · C++ 0 · TypeScript 1
+Solved **3 / 150** · Python 3 · C++ 0 · TypeScript 1
 
 Solutions live in [`top150/`](top150/). Older solutions are in the repo root.
 
@@ -15,7 +15,7 @@ Solutions live in [`top150/`](top150/). Older solutions are in the repo root.
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy |  |  |  |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium |  |  |  |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy |  |  |  |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium |  |  |  |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [✅](top150/01-array-string/0189-rotate-array/solution.py) |  |  |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy |  |  |  |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium |  |  |  |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium |  |  |  |
