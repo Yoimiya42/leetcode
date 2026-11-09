@@ -10,7 +10,7 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
     }
     for (const c of ransomNote) {
       if (--counter[c.charCodeAt(0) - 'a'.charCodeAt(0)] < 0)
-        return false
+        return false;
     }
-    return true
+    return true;
 };
