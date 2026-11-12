@@ -1,3 +1,4 @@
 # README
 
-- DP`
+- DP
+- Greedy
