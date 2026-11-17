@@ -7,3 +7,5 @@
 - Old solutions from before Top 150 sit in the repo root; leave them alone.
 - The user writes solutions in Python, C++ and TypeScript. When they say they finished a problem or ask to check, follow the `check` skill (`.claude/skills/check/SKILL.md`): run the examples in a temp dir, report failures by example number, then commit and push on success. Don't add test files to the repo.
 - Talk to the user in Chinese.
+
+- 1 
